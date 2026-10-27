@@ -1,0 +1,3484 @@
+{
+ "schema": 1,
+ "nonce": "1a8dd4e18688593cab54efdb42aa05af",
+ "election": "israel/2026/parliament",
+ "name": "Simczech Pitaya: scenarios",
+ "kind": "a set of scenarios sealed before the polls opened, to learn from after the count; not a forecast and not part of the prediction",
+ "baseline": "the sealed second version (2026-10-27_0146)",
+ "set": {
+  "election": "israel/2026/parliament",
+  "made_at": "2026-10-27T01:58:43+01:00",
+  "baseline": "2026-10-27_0146",
+  "scenarios": [
+   {
+    "id": "S1",
+    "name": "Channel 14 and Direct Polls are right",
+    "mechanism": "The two government-close polling families' final polls describe the electorate, as in Loquat scenario b.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "Replace the national vector with the already computed conditional series; no additional adjustment.",
+     "parameters": {
+      "replacement_shares": {
+       "value": {
+        "likud": 22.1639,
+        "shas": 6.726298,
+        "utj": 5.934434,
+        "rzp_zehut": 5.14257,
+        "otzma": 6.331616,
+        "together": 9.104391,
+        "yashar": 16.231169,
+        "democrats": 6.331616,
+        "yisrael_beiteinu": 4.353206,
+        "reservists_nep": 2.05,
+        "raam": 4.350706,
+        "joint_list": 6.728798,
+        "amcha_yisrael": 2.375,
+        "haredi_public": 0.4,
+        "other": 1.776296
+       },
+       "unit": "percent of valid votes",
+       "source_ids": [
+        "series"
+       ],
+       "derivation": "Copy shares_pct without refitting."
+      }
+     },
+     "sources": {
+      "series": {
+       "file": "models/loquat/scenarios.json",
+       "sha256": "7183baf951e70df406a5b6ac011702311df5ee037967352c6f2b3b069ab534d7",
+       "json_pointer": "/b_government_close/shares_pct",
+       "value": {
+        "likud": 22.1639,
+        "shas": 6.726298,
+        "utj": 5.934434,
+        "rzp_zehut": 5.14257,
+        "otzma": 6.331616,
+        "together": 9.104391,
+        "yashar": 16.231169,
+        "democrats": 6.331616,
+        "yisrael_beiteinu": 4.353206,
+        "reservists_nep": 2.05,
+        "raam": 4.350706,
+        "joint_list": 6.728798,
+        "amcha_yisrael": 2.375,
+        "haredi_public": 0.4,
+        "other": 1.776296
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 22.2,
+     "shas": 6.7,
+     "utj": 5.9,
+     "rzp_zehut": 5.1,
+     "otzma": 6.3,
+     "together": 9.1,
+     "yashar": 16.2,
+     "democrats": 6.3,
+     "yisrael_beiteinu": 4.4,
+     "reservists_nep": 2.1,
+     "raam": 4.4,
+     "joint_list": 6.7,
+     "amcha_yisrael": 2.4,
+     "haredi_public": 0.4,
+     "other": 1.8
+    },
+    "shares_unrounded": {
+     "likud": 22.1639,
+     "shas": 6.726298,
+     "utj": 5.934434,
+     "rzp_zehut": 5.14257,
+     "otzma": 6.331616,
+     "together": 9.104391,
+     "yashar": 16.231169,
+     "democrats": 6.331616,
+     "yisrael_beiteinu": 4.353206,
+     "reservists_nep": 2.05,
+     "raam": 4.350706,
+     "joint_list": 6.728798,
+     "amcha_yisrael": 2.375,
+     "haredi_public": 0.4,
+     "other": 1.776296
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 30,
+     "shas": 9,
+     "utj": 7,
+     "rzp_zehut": 6,
+     "otzma": 8,
+     "together": 12,
+     "yashar": 21,
+     "democrats": 8,
+     "yisrael_beiteinu": 5,
+     "reservists_nep": 0,
+     "raam": 5,
+     "joint_list": 9,
+     "amcha_yisrael": 0,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 60,
+     "opposition": 46,
+     "arab": 14,
+     "outside": 0,
+     "coalition_plus_amcha": 60
+    },
+    "bloc_shares": {
+     "coalition": 46.298818000000004,
+     "opposition": 38.070382,
+     "arab": 11.079504,
+     "outside": 4.551296,
+     "coalition_plus_amcha": 48.673818000000004
+    },
+    "largest_list": "likud",
+    "largest_lists_by_seats": [
+     "likud"
+    ],
+    "signature": [
+     {
+      "quantity": "Likud share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud"
+      ],
+      "baseline": 17.5,
+      "scenario": 22.1639,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Together and Yashar share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "together",
+       "yashar"
+      ],
+      "baseline": 28.3,
+      "scenario": 25.33556,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 46.298818000000004,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 60,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {},
+    "input_poll_families": [
+     "direct_polls",
+     "filber"
+    ]
+   },
+   {
+    "id": "S2",
+    "name": "The other pollsters are right",
+    "mechanism": "The six other polling families' final polls describe the electorate, as in Loquat scenario c.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "Replace the national vector with the already computed conditional series; no additional adjustment.",
+     "parameters": {
+      "replacement_shares": {
+       "value": {
+        "likud": 15.58855,
+        "shas": 5.888752,
+        "utj": 5.759414,
+        "rzp_zehut": 5.098277,
+        "otzma": 6.292601,
+        "together": 11.006147,
+        "yashar": 17.424011,
+        "democrats": 7.196581,
+        "yisrael_beiteinu": 6.151457,
+        "reservists_nep": 3.069021,
+        "raam": 4.181102,
+        "joint_list": 7.073771,
+        "amcha_yisrael": 2.99402,
+        "haredi_public": 0.716667,
+        "other": 1.559629
+       },
+       "unit": "percent of valid votes",
+       "source_ids": [
+        "series"
+       ],
+       "derivation": "Copy shares_pct without refitting."
+      }
+     },
+     "sources": {
+      "series": {
+       "file": "models/loquat/scenarios.json",
+       "sha256": "7183baf951e70df406a5b6ac011702311df5ee037967352c6f2b3b069ab534d7",
+       "json_pointer": "/c_other_pollsters/shares_pct",
+       "value": {
+        "likud": 15.58855,
+        "shas": 5.888752,
+        "utj": 5.759414,
+        "rzp_zehut": 5.098277,
+        "otzma": 6.292601,
+        "together": 11.006147,
+        "yashar": 17.424011,
+        "democrats": 7.196581,
+        "yisrael_beiteinu": 6.151457,
+        "reservists_nep": 3.069021,
+        "raam": 4.181102,
+        "joint_list": 7.073771,
+        "amcha_yisrael": 2.99402,
+        "haredi_public": 0.716667,
+        "other": 1.559629
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 15.6,
+     "shas": 5.9,
+     "utj": 5.7,
+     "rzp_zehut": 5.1,
+     "otzma": 6.3,
+     "together": 11.0,
+     "yashar": 17.4,
+     "democrats": 7.2,
+     "yisrael_beiteinu": 6.1,
+     "reservists_nep": 3.1,
+     "raam": 4.2,
+     "joint_list": 7.1,
+     "amcha_yisrael": 3.0,
+     "haredi_public": 0.7,
+     "other": 1.6
+    },
+    "shares_unrounded": {
+     "likud": 15.58855,
+     "shas": 5.888752,
+     "utj": 5.759414,
+     "rzp_zehut": 5.098277,
+     "otzma": 6.292601,
+     "together": 11.006147,
+     "yashar": 17.424011,
+     "democrats": 7.196581,
+     "yisrael_beiteinu": 6.151457,
+     "reservists_nep": 3.069021,
+     "raam": 4.181102,
+     "joint_list": 7.073771,
+     "amcha_yisrael": 2.99402,
+     "haredi_public": 0.716667,
+     "other": 1.559629
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 21,
+     "shas": 8,
+     "utj": 7,
+     "rzp_zehut": 6,
+     "otzma": 8,
+     "together": 14,
+     "yashar": 24,
+     "democrats": 9,
+     "yisrael_beiteinu": 8,
+     "reservists_nep": 0,
+     "raam": 5,
+     "joint_list": 10,
+     "amcha_yisrael": 0,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 50,
+     "opposition": 55,
+     "arab": 15,
+     "outside": 0,
+     "coalition_plus_amcha": 50
+    },
+    "bloc_shares": {
+     "coalition": 38.627594,
+     "opposition": 44.847217,
+     "arab": 11.254873,
+     "outside": 5.270316,
+     "coalition_plus_amcha": 41.621614
+    },
+    "largest_list": "yashar",
+    "largest_lists_by_seats": [
+     "yashar"
+    ],
+    "signature": [
+     {
+      "quantity": "Likud share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud"
+      ],
+      "baseline": 17.5,
+      "scenario": 15.58855,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Together and Yashar share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "together",
+       "yashar"
+      ],
+      "baseline": 28.3,
+      "scenario": 28.430158,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 38.627594,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 50,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {},
+    "input_poll_families": [
+     "ch13_midgam_project",
+     "kantar",
+     "lazar_panels",
+     "maagar_mochot",
+     "midgam",
+     "tatika"
+    ]
+   },
+   {
+    "id": "S3",
+    "name": "Past poll errors recur",
+    "mechanism": "The final-poll average misses by the historical list-kind means used in the privately sealed 00:45 scenario.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "Copy the private scenario, including its original conversions, overlapping adjustments, clipping and normalization.",
+     "parameters": {
+      "replacement_shares": {
+       "value": {
+        "likud": 19.924662,
+        "shas": 6.907433,
+        "utj": 6.573317,
+        "rzp_zehut": 5.266261,
+        "otzma": 6.495903,
+        "together": 10.854111,
+        "yashar": 16.294639,
+        "democrats": 7.19471,
+        "yisrael_beiteinu": 5.877002,
+        "reservists_nep": 0.959522,
+        "raam": 4.516617,
+        "joint_list": 7.472467,
+        "amcha_yisrael": 0.0,
+        "haredi_public": 0.0,
+        "other": 1.663356
+       },
+       "unit": "percent of valid votes",
+       "source_ids": [
+        "series",
+        "private_seal"
+       ],
+       "derivation": "Copy the existing scenario; do not apply its moves a second time to the Original."
+      }
+     },
+     "sources": {
+      "series": {
+       "file": "models/pitaya/prediction.json",
+       "sha256": "33077227feac3fb75181395b8edda64fa3a8b39638f7a9f4a67d8426280c7d2b",
+       "json_pointer": "/shares_pct",
+       "value": {
+        "likud": 19.924662,
+        "shas": 6.907433,
+        "utj": 6.573317,
+        "rzp_zehut": 5.266261,
+        "otzma": 6.495903,
+        "together": 10.854111,
+        "yashar": 16.294639,
+        "democrats": 7.19471,
+        "yisrael_beiteinu": 5.877002,
+        "reservists_nep": 0.959522,
+        "raam": 4.516617,
+        "joint_list": 7.472467,
+        "amcha_yisrael": 0.0,
+        "haredi_public": 0.0,
+        "other": 1.663356
+       }
+      },
+      "private_seal": {
+       "file": "prediction/2026-10-27_0045-pitaya/prediction.json",
+       "sha256": "219b41ed7ce9d6919f93e80f0baa156204f486734c8f06ab4b09b5c42c650418",
+       "json_pointer": "/estimate/shares_pct",
+       "value": {
+        "likud": 19.924662,
+        "shas": 6.907433,
+        "utj": 6.573317,
+        "rzp_zehut": 5.266261,
+        "otzma": 6.495903,
+        "together": 10.854111,
+        "yashar": 16.294639,
+        "democrats": 7.19471,
+        "yisrael_beiteinu": 5.877002,
+        "reservists_nep": 0.959522,
+        "raam": 4.516617,
+        "joint_list": 7.472467,
+        "amcha_yisrael": 0.0,
+        "haredi_public": 0.0,
+        "other": 1.663356
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 19.9,
+     "shas": 6.9,
+     "utj": 6.6,
+     "rzp_zehut": 5.3,
+     "otzma": 6.5,
+     "together": 10.8,
+     "yashar": 16.3,
+     "democrats": 7.2,
+     "yisrael_beiteinu": 5.9,
+     "reservists_nep": 0.9,
+     "raam": 4.5,
+     "joint_list": 7.5,
+     "amcha_yisrael": 0.0,
+     "haredi_public": 0.0,
+     "other": 1.7
+    },
+    "shares_unrounded": {
+     "likud": 19.924662,
+     "shas": 6.907433,
+     "utj": 6.573317,
+     "rzp_zehut": 5.266261,
+     "otzma": 6.495903,
+     "together": 10.854111,
+     "yashar": 16.294639,
+     "democrats": 7.19471,
+     "yisrael_beiteinu": 5.877002,
+     "reservists_nep": 0.959522,
+     "raam": 4.516617,
+     "joint_list": 7.472467,
+     "amcha_yisrael": 0.0,
+     "haredi_public": 0.0,
+     "other": 1.663356
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 25,
+     "shas": 8,
+     "utj": 8,
+     "rzp_zehut": 6,
+     "otzma": 8,
+     "together": 14,
+     "yashar": 20,
+     "democrats": 9,
+     "yisrael_beiteinu": 7,
+     "reservists_nep": 0,
+     "raam": 6,
+     "joint_list": 9,
+     "amcha_yisrael": 0,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 55,
+     "opposition": 50,
+     "arab": 15,
+     "outside": 0,
+     "coalition_plus_amcha": 55
+    },
+    "bloc_shares": {
+     "coalition": 45.167576000000004,
+     "opposition": 41.179984,
+     "arab": 11.989084,
+     "outside": 1.663356,
+     "coalition_plus_amcha": 45.167576000000004
+    },
+    "largest_list": "likud",
+    "largest_lists_by_seats": [
+     "likud"
+    ],
+    "signature": [
+     {
+      "quantity": "Likud share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud"
+      ],
+      "baseline": 17.5,
+      "scenario": 19.924662,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Shas and UTJ share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "shas",
+       "utj"
+      ],
+      "baseline": 12.100000000000001,
+      "scenario": 13.48075,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Reservists share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "reservists_nep"
+      ],
+      "baseline": 2.4,
+      "scenario": 0.959522,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Amcha share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "amcha_yisrael"
+      ],
+      "baseline": 2.2,
+      "scenario": 0.0,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 45.167576000000004,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 55,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {
+     "raam": {
+      "allocation": 6,
+      "from_displayed_shares": 5
+     },
+     "joint_list": {
+      "allocation": 9,
+      "from_displayed_shares": 10
+     }
+    }
+   },
+   {
+    "id": "S4",
+    "name": "Arab turnout reaches the survey level",
+    "mechanism": "Arab participation reaches the saved 63% Arab-including-Druze benchmark while Druze participation and every sector's list preferences remain fixed.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "Interpret the memo's Arab-including-Druze benchmark on an in-person basis, convert to the disjoint effective Arab row, and change only that row's turnout.",
+     "parameters": {
+      "arab_including_druze_in_person_target": {
+       "value": 63.0,
+       "unit": "percent of registered voters",
+       "source_ids": [
+        "target",
+        "definitions"
+       ],
+       "derivation": "Use the saved benchmark level."
+      },
+      "envelope_offset": {
+       "value": 6.817209629266068,
+       "unit": "turnout percentage points",
+       "source_ids": [
+        "envelopes",
+        "total"
+       ],
+       "derivation": "100 * 2022 double-envelope ballots cast / 2022 national registered voters."
+      },
+      "arab_effective_target": {
+       "value": 71.21391033836022,
+       "unit": "percent of registered voters",
+       "source_ids": [
+        "target",
+        "arab",
+        "druze",
+        "envelopes",
+        "total",
+        "sealed_druze"
+       ],
+       "derivation": "[target*(R_arab+R_druze) - R_druze*(sealed_Druze_turnout-envelope_offset)]/R_arab + envelope_offset."
+      }
+     },
+     "sources": {
+      "target": {
+       "file": "models/lucuma/memos/runs/turnout/memo.md",
+       "sha256": "3126760b172a12753048757bc6c7e8f179505d90ea08515196d687158af0cfe3",
+       "line": 39,
+       "quote": "| [Statnet projection reported by Reuters/ToI, 21 October 2026](https://www.timesofisrael.com/turnout-among-israels-arab-voters-could-make-or-break-hopes-to-unseat-netanyahu/) | Sample, fieldwork dates and turnout adjustment not disclosed in the report | **63% expected Arab turnout** | Most relevant recent sector forecast; methodology and historical denominator remain unresolved. |"
+      },
+      "definitions": {
+       "file": "models/lucuma/memos/runs/turnout/memo.md",
+       "sha256": "3126760b172a12753048757bc6c7e8f179505d90ea08515196d687158af0cfe3",
+       "line": 23,
+       "quote": "**Definitions matter for model ingestion.** The Arab series covers Arab/Druze localities and excludes Arab residents of mixed cities, other localities, and separately counted double-envelope ballots. The Druze column is a subset, not an additional population. The Haredi proxy covers **Elad, Beitar Illit and Modi’in Illit**; it is not representative evidence for every Haredi voter. [IDI, 20 December 2022](https://www.idi.org.il/articles/46754); [IDI, 15 November 2022](https://www.idi.org.il/articles/46440)"
+      },
+      "arab": {
+       "file": "data/clean/sectors_2022_box.csv",
+       "sha256": "7546326aa2a7c9daf7349e68db6b8fc98f5311e6d984cde9c05a773a659613a1",
+       "csv_record": 4,
+       "selector": {
+        "sector": "arab"
+       },
+       "value": {
+        "sector": "arab",
+        "registered": "933957",
+        "voted": "494305",
+        "valid": "489437",
+        "ballot_boxes": "1618",
+        "turnout": "0.5293",
+        "share_of_national_valid": "0.1027",
+        "מחל": "0.0177",
+        "ט": "0.0027",
+        "שס": "0.0043",
+        "ג": "0.0006",
+        "פה": "0.0139",
+        "כן": "0.009",
+        "ל": "0.0059",
+        "אמת": "0.0064",
+        "מרצ": "0.0182",
+        "עם": "0.3618",
+        "ום": "0.3069",
+        "ד": "0.245",
+        "ב": "0.0004",
+        "other_lists": "0.0072",
+        "bloc_coalition": "0.0252",
+        "bloc_opposition": "0.0533",
+        "bloc_arab": "0.9137"
+       }
+      },
+      "druze": {
+       "file": "data/clean/sectors_2022_box.csv",
+       "sha256": "7546326aa2a7c9daf7349e68db6b8fc98f5311e6d984cde9c05a773a659613a1",
+       "csv_record": 5,
+       "selector": {
+        "sector": "druze"
+       },
+       "value": {
+        "sector": "druze",
+        "registered": "92402",
+        "voted": "45125",
+        "valid": "44621",
+        "ballot_boxes": "165",
+        "turnout": "0.4884",
+        "share_of_national_valid": "0.0094",
+        "מחל": "0.1015",
+        "ט": "0.0032",
+        "שס": "0.0129",
+        "ג": "0.0002",
+        "פה": "0.0793",
+        "כן": "0.2669",
+        "ל": "0.1742",
+        "אמת": "0.0343",
+        "מרצ": "0.1241",
+        "עם": "0.0616",
+        "ום": "0.0759",
+        "ד": "0.0268",
+        "ב": "0.0213",
+        "other_lists": "0.0178",
+        "bloc_coalition": "0.1178",
+        "bloc_opposition": "0.6788",
+        "bloc_arab": "0.1644"
+       }
+      },
+      "envelopes": {
+       "file": "data/clean/sectors_2022_box.csv",
+       "sha256": "7546326aa2a7c9daf7349e68db6b8fc98f5311e6d984cde9c05a773a659613a1",
+       "csv_record": 6,
+       "selector": {
+        "sector": "double_envelope"
+       },
+       "value": {
+        "sector": "double_envelope",
+        "registered": "0",
+        "voted": "462807",
+        "valid": "458714",
+        "ballot_boxes": "838",
+        "turnout": "",
+        "share_of_national_valid": "0.0963",
+        "מחל": "0.2352",
+        "ט": "0.1545",
+        "שס": "0.0684",
+        "ג": "0.0374",
+        "פה": "0.1693",
+        "כן": "0.1065",
+        "ל": "0.057",
+        "אמת": "0.0512",
+        "מרצ": "0.0313",
+        "עם": "0.0175",
+        "ום": "0.0171",
+        "ד": "0.0159",
+        "ב": "0.0148",
+        "other_lists": "0.0239",
+        "bloc_coalition": "0.4955",
+        "bloc_opposition": "0.4153",
+        "bloc_arab": "0.0505"
+       }
+      },
+      "total": {
+       "file": "data/clean/sectors_2022_box.csv",
+       "sha256": "7546326aa2a7c9daf7349e68db6b8fc98f5311e6d984cde9c05a773a659613a1",
+       "csv_record": 7,
+       "selector": {
+        "sector": "TOTAL"
+       },
+       "value": {
+        "sector": "TOTAL",
+        "registered": "6788804",
+        "voted": "4794593",
+        "valid": "4764742",
+        "ballot_boxes": "12545",
+        "turnout": "0.7063",
+        "share_of_national_valid": "1.0",
+        "מחל": "0.2341",
+        "ט": "0.1084",
+        "שס": "0.0825",
+        "ג": "0.0588",
+        "פה": "0.1779",
+        "כן": "0.0908",
+        "ל": "0.0448",
+        "אמת": "0.0369",
+        "מרצ": "0.0316",
+        "עם": "0.0407",
+        "ום": "0.0375",
+        "ד": "0.0291",
+        "ב": "0.0119",
+        "other_lists": "0.015",
+        "bloc_coalition": "0.4838",
+        "bloc_opposition": "0.3821",
+        "bloc_arab": "0.1073"
+       }
+      },
+      "sealed_jewish_other": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 2,
+       "selector": {
+        "sector": "jewish_other"
+       },
+       "value": {
+        "sector": "jewish_other",
+        "name": "Jewish, not Haredi",
+        "valid_vote_weight_pct": "77.322",
+        "turnout_pct": "71.9",
+        "likud": "21.4",
+        "shas": "5.4",
+        "utj": "1.6",
+        "rzp_zehut": "5.8",
+        "otzma": "7.5",
+        "together": "14.5",
+        "yashar": "20.0",
+        "democrats": "8.4",
+        "yisrael_beiteinu": "6.9",
+        "reservists_nep": "2.8",
+        "raam": "0.3",
+        "joint_list": "1.0",
+        "amcha_yisrael": "2.6",
+        "haredi_public": "0.2",
+        "other": "1.6"
+       }
+      },
+      "sealed_haredi": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 3,
+       "selector": {
+        "sector": "haredi"
+       },
+       "value": {
+        "sector": "haredi",
+        "name": "Haredi",
+        "valid_vote_weight_pct": "8.843",
+        "turnout_pct": "79.7",
+        "likud": "5.4",
+        "shas": "23.2",
+        "utj": "49.6",
+        "rzp_zehut": "4.0",
+        "otzma": "5.2",
+        "together": "1.9",
+        "yashar": "3.1",
+        "democrats": "1.1",
+        "yisrael_beiteinu": "1.6",
+        "reservists_nep": "0.5",
+        "raam": "0.2",
+        "joint_list": "0.3",
+        "amcha_yisrael": "1.7",
+        "haredi_public": "1.7",
+        "other": "0.5"
+       }
+      },
+      "sealed_arab": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 4,
+       "selector": {
+        "sector": "arab"
+       },
+       "value": {
+        "sector": "arab",
+        "name": "Arab",
+        "valid_vote_weight_pct": "12.782",
+        "turnout_pct": "66.8",
+        "likud": "3.4",
+        "shas": "0.9",
+        "utj": "0.5",
+        "rzp_zehut": "1.0",
+        "otzma": "1.3",
+        "together": "2.2",
+        "yashar": "3.9",
+        "democrats": "3.5",
+        "yisrael_beiteinu": "1.7",
+        "reservists_nep": "0.9",
+        "raam": "31.3",
+        "joint_list": "48.1",
+        "amcha_yisrael": "0.4",
+        "haredi_public": "0.0",
+        "other": "0.9"
+       }
+      },
+      "sealed_druze": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 5,
+       "selector": {
+        "sector": "druze"
+       },
+       "value": {
+        "sector": "druze",
+        "name": "Druze",
+        "valid_vote_weight_pct": "1.053",
+        "turnout_pct": "55.7",
+        "likud": "7.2",
+        "shas": "1.2",
+        "utj": "0.4",
+        "rzp_zehut": "0.8",
+        "otzma": "1.1",
+        "together": "5.6",
+        "yashar": "37.1",
+        "democrats": "12.8",
+        "yisrael_beiteinu": "17.3",
+        "reservists_nep": "3.2",
+        "raam": "4.2",
+        "joint_list": "7.1",
+        "amcha_yisrael": "0.6",
+        "haredi_public": "0.0",
+        "other": "1.4"
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 17.4,
+     "shas": 6.3,
+     "utj": 5.7,
+     "rzp_zehut": 4.9,
+     "otzma": 6.4,
+     "together": 11.6,
+     "yashar": 16.5,
+     "democrats": 7.2,
+     "yisrael_beiteinu": 5.8,
+     "reservists_nep": 2.4,
+     "raam": 4.5,
+     "joint_list": 7.4,
+     "amcha_yisrael": 2.2,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "shares_unrounded": {
+     "likud": 17.416452465222264,
+     "shas": 6.308954519168393,
+     "utj": 5.647923163502294,
+     "rzp_zehut": 4.941351743244457,
+     "otzma": 6.393714008522738,
+     "together": 11.640148464295205,
+     "yashar": 16.52109749169284,
+     "democrats": 7.143700673962466,
+     "yisrael_beiteinu": 5.841192905076551,
+     "reservists_nep": 2.345754305884157,
+     "raam": 4.520818250825947,
+     "joint_list": 7.366683456877673,
+     "amcha_yisrael": 2.2029217062748243,
+     "haredi_public": 0.30242078474930517,
+     "other": 1.4068660607008874
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 23,
+     "shas": 8,
+     "utj": 7,
+     "rzp_zehut": 6,
+     "otzma": 8,
+     "together": 15,
+     "yashar": 22,
+     "democrats": 9,
+     "yisrael_beiteinu": 7,
+     "reservists_nep": 0,
+     "raam": 6,
+     "joint_list": 9,
+     "amcha_yisrael": 0,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 52,
+     "opposition": 53,
+     "arab": 15,
+     "outside": 0,
+     "coalition_plus_amcha": 52
+    },
+    "bloc_shares": {
+     "coalition": 40.70839589966015,
+     "opposition": 43.49189384091122,
+     "arab": 11.88750170770362,
+     "outside": 3.912208551725017,
+     "coalition_plus_amcha": 42.91131760593497
+    },
+    "largest_list": "likud",
+    "largest_lists_by_seats": [
+     "likud"
+    ],
+    "signature": [
+     {
+      "quantity": "Arab including Druze in-person proxy turnout",
+      "unit": "percent of registered voters",
+      "baseline": 58.983469275483635,
+      "scenario": 63.0,
+      "observe": "Aggregate ballots cast and registered voters in the frozen Arab and Druze box proxies, excluding separately counted envelopes; also report the official Arab/Druze locality series separately because the populations differ."
+     },
+     {
+      "quantity": "Arab effective sector turnout",
+      "unit": "percent of registered voters",
+      "sector": "arab",
+      "baseline": 66.8,
+      "scenario": 71.21391033836022,
+      "observe": "Use the frozen 2022 ballot-box sector proxy: ballots cast / registered voters, plus a neutral proportional allocation of separately counted double-envelope ballots; report the in-person rate separately."
+     },
+     {
+      "quantity": "Ra'am and Joint List share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "raam",
+       "joint_list"
+      ],
+      "baseline": 11.3,
+      "scenario": 11.88750170770362,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 40.70839589966015,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 52,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {},
+    "sector_reweighting": {
+     "changed_sector": "arab",
+     "turnout_before_pct": 66.8,
+     "turnout_after_pct": 71.21391033836022,
+     "valid_vote_weights_before_pct": {
+      "jewish_other": 77.322,
+      "haredi": 8.843,
+      "arab": 12.782,
+      "druze": 1.053
+     },
+     "valid_vote_weights_after_pct": {
+      "jewish_other": 76.67441566812288,
+      "haredi": 8.768938436062317,
+      "arab": 13.512464942159527,
+      "druze": 1.0441809536552777
+     },
+     "formula": "new mass of changed sector = old vote weight * new turnout / old turnout; other masses unchanged; normalize masses; sum unchanged sector list profiles against new weights"
+    }
+   },
+   {
+    "id": "S5",
+    "name": "Arab turnout returns to the 2021 low",
+    "mechanism": "Arab participation reaches the saved 44.6% Arab-including-Druze benchmark while Druze participation and every sector's list preferences remain fixed.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "Interpret the memo's Arab-including-Druze benchmark on an in-person basis, convert to the disjoint effective Arab row, and change only that row's turnout.",
+     "parameters": {
+      "arab_including_druze_in_person_target": {
+       "value": 44.6,
+       "unit": "percent of registered voters",
+       "source_ids": [
+        "target",
+        "definitions"
+       ],
+       "derivation": "Use the saved benchmark level."
+      },
+      "envelope_offset": {
+       "value": 6.817209629266068,
+       "unit": "turnout percentage points",
+       "source_ids": [
+        "envelopes",
+        "total"
+       ],
+       "derivation": "100 * 2022 double-envelope ballots cast / 2022 national registered voters."
+      },
+      "arab_effective_target": {
+       "value": 50.9934873424407,
+       "unit": "percent of registered voters",
+       "source_ids": [
+        "target",
+        "arab",
+        "druze",
+        "envelopes",
+        "total",
+        "sealed_druze"
+       ],
+       "derivation": "[target*(R_arab+R_druze) - R_druze*(sealed_Druze_turnout-envelope_offset)]/R_arab + envelope_offset."
+      }
+     },
+     "sources": {
+      "target": {
+       "file": "models/lucuma/memos/runs/turnout/memo.md",
+       "sha256": "3126760b172a12753048757bc6c7e8f179505d90ea08515196d687158af0cfe3",
+       "line": 18,
+       "quote": "| March 2021 | 67.4 | 44.6 | 46.4 | 79.7 |"
+      },
+      "definitions": {
+       "file": "models/lucuma/memos/runs/turnout/memo.md",
+       "sha256": "3126760b172a12753048757bc6c7e8f179505d90ea08515196d687158af0cfe3",
+       "line": 23,
+       "quote": "**Definitions matter for model ingestion.** The Arab series covers Arab/Druze localities and excludes Arab residents of mixed cities, other localities, and separately counted double-envelope ballots. The Druze column is a subset, not an additional population. The Haredi proxy covers **Elad, Beitar Illit and Modi’in Illit**; it is not representative evidence for every Haredi voter. [IDI, 20 December 2022](https://www.idi.org.il/articles/46754); [IDI, 15 November 2022](https://www.idi.org.il/articles/46440)"
+      },
+      "arab": {
+       "file": "data/clean/sectors_2022_box.csv",
+       "sha256": "7546326aa2a7c9daf7349e68db6b8fc98f5311e6d984cde9c05a773a659613a1",
+       "csv_record": 4,
+       "selector": {
+        "sector": "arab"
+       },
+       "value": {
+        "sector": "arab",
+        "registered": "933957",
+        "voted": "494305",
+        "valid": "489437",
+        "ballot_boxes": "1618",
+        "turnout": "0.5293",
+        "share_of_national_valid": "0.1027",
+        "מחל": "0.0177",
+        "ט": "0.0027",
+        "שס": "0.0043",
+        "ג": "0.0006",
+        "פה": "0.0139",
+        "כן": "0.009",
+        "ל": "0.0059",
+        "אמת": "0.0064",
+        "מרצ": "0.0182",
+        "עם": "0.3618",
+        "ום": "0.3069",
+        "ד": "0.245",
+        "ב": "0.0004",
+        "other_lists": "0.0072",
+        "bloc_coalition": "0.0252",
+        "bloc_opposition": "0.0533",
+        "bloc_arab": "0.9137"
+       }
+      },
+      "druze": {
+       "file": "data/clean/sectors_2022_box.csv",
+       "sha256": "7546326aa2a7c9daf7349e68db6b8fc98f5311e6d984cde9c05a773a659613a1",
+       "csv_record": 5,
+       "selector": {
+        "sector": "druze"
+       },
+       "value": {
+        "sector": "druze",
+        "registered": "92402",
+        "voted": "45125",
+        "valid": "44621",
+        "ballot_boxes": "165",
+        "turnout": "0.4884",
+        "share_of_national_valid": "0.0094",
+        "מחל": "0.1015",
+        "ט": "0.0032",
+        "שס": "0.0129",
+        "ג": "0.0002",
+        "פה": "0.0793",
+        "כן": "0.2669",
+        "ל": "0.1742",
+        "אמת": "0.0343",
+        "מרצ": "0.1241",
+        "עם": "0.0616",
+        "ום": "0.0759",
+        "ד": "0.0268",
+        "ב": "0.0213",
+        "other_lists": "0.0178",
+        "bloc_coalition": "0.1178",
+        "bloc_opposition": "0.6788",
+        "bloc_arab": "0.1644"
+       }
+      },
+      "envelopes": {
+       "file": "data/clean/sectors_2022_box.csv",
+       "sha256": "7546326aa2a7c9daf7349e68db6b8fc98f5311e6d984cde9c05a773a659613a1",
+       "csv_record": 6,
+       "selector": {
+        "sector": "double_envelope"
+       },
+       "value": {
+        "sector": "double_envelope",
+        "registered": "0",
+        "voted": "462807",
+        "valid": "458714",
+        "ballot_boxes": "838",
+        "turnout": "",
+        "share_of_national_valid": "0.0963",
+        "מחל": "0.2352",
+        "ט": "0.1545",
+        "שס": "0.0684",
+        "ג": "0.0374",
+        "פה": "0.1693",
+        "כן": "0.1065",
+        "ל": "0.057",
+        "אמת": "0.0512",
+        "מרצ": "0.0313",
+        "עם": "0.0175",
+        "ום": "0.0171",
+        "ד": "0.0159",
+        "ב": "0.0148",
+        "other_lists": "0.0239",
+        "bloc_coalition": "0.4955",
+        "bloc_opposition": "0.4153",
+        "bloc_arab": "0.0505"
+       }
+      },
+      "total": {
+       "file": "data/clean/sectors_2022_box.csv",
+       "sha256": "7546326aa2a7c9daf7349e68db6b8fc98f5311e6d984cde9c05a773a659613a1",
+       "csv_record": 7,
+       "selector": {
+        "sector": "TOTAL"
+       },
+       "value": {
+        "sector": "TOTAL",
+        "registered": "6788804",
+        "voted": "4794593",
+        "valid": "4764742",
+        "ballot_boxes": "12545",
+        "turnout": "0.7063",
+        "share_of_national_valid": "1.0",
+        "מחל": "0.2341",
+        "ט": "0.1084",
+        "שס": "0.0825",
+        "ג": "0.0588",
+        "פה": "0.1779",
+        "כן": "0.0908",
+        "ל": "0.0448",
+        "אמת": "0.0369",
+        "מרצ": "0.0316",
+        "עם": "0.0407",
+        "ום": "0.0375",
+        "ד": "0.0291",
+        "ב": "0.0119",
+        "other_lists": "0.015",
+        "bloc_coalition": "0.4838",
+        "bloc_opposition": "0.3821",
+        "bloc_arab": "0.1073"
+       }
+      },
+      "sealed_jewish_other": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 2,
+       "selector": {
+        "sector": "jewish_other"
+       },
+       "value": {
+        "sector": "jewish_other",
+        "name": "Jewish, not Haredi",
+        "valid_vote_weight_pct": "77.322",
+        "turnout_pct": "71.9",
+        "likud": "21.4",
+        "shas": "5.4",
+        "utj": "1.6",
+        "rzp_zehut": "5.8",
+        "otzma": "7.5",
+        "together": "14.5",
+        "yashar": "20.0",
+        "democrats": "8.4",
+        "yisrael_beiteinu": "6.9",
+        "reservists_nep": "2.8",
+        "raam": "0.3",
+        "joint_list": "1.0",
+        "amcha_yisrael": "2.6",
+        "haredi_public": "0.2",
+        "other": "1.6"
+       }
+      },
+      "sealed_haredi": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 3,
+       "selector": {
+        "sector": "haredi"
+       },
+       "value": {
+        "sector": "haredi",
+        "name": "Haredi",
+        "valid_vote_weight_pct": "8.843",
+        "turnout_pct": "79.7",
+        "likud": "5.4",
+        "shas": "23.2",
+        "utj": "49.6",
+        "rzp_zehut": "4.0",
+        "otzma": "5.2",
+        "together": "1.9",
+        "yashar": "3.1",
+        "democrats": "1.1",
+        "yisrael_beiteinu": "1.6",
+        "reservists_nep": "0.5",
+        "raam": "0.2",
+        "joint_list": "0.3",
+        "amcha_yisrael": "1.7",
+        "haredi_public": "1.7",
+        "other": "0.5"
+       }
+      },
+      "sealed_arab": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 4,
+       "selector": {
+        "sector": "arab"
+       },
+       "value": {
+        "sector": "arab",
+        "name": "Arab",
+        "valid_vote_weight_pct": "12.782",
+        "turnout_pct": "66.8",
+        "likud": "3.4",
+        "shas": "0.9",
+        "utj": "0.5",
+        "rzp_zehut": "1.0",
+        "otzma": "1.3",
+        "together": "2.2",
+        "yashar": "3.9",
+        "democrats": "3.5",
+        "yisrael_beiteinu": "1.7",
+        "reservists_nep": "0.9",
+        "raam": "31.3",
+        "joint_list": "48.1",
+        "amcha_yisrael": "0.4",
+        "haredi_public": "0.0",
+        "other": "0.9"
+       }
+      },
+      "sealed_druze": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 5,
+       "selector": {
+        "sector": "druze"
+       },
+       "value": {
+        "sector": "druze",
+        "name": "Druze",
+        "valid_vote_weight_pct": "1.053",
+        "turnout_pct": "55.7",
+        "likud": "7.2",
+        "shas": "1.2",
+        "utj": "0.4",
+        "rzp_zehut": "0.8",
+        "otzma": "1.1",
+        "together": "5.6",
+        "yashar": "37.1",
+        "democrats": "12.8",
+        "yisrael_beiteinu": "17.3",
+        "reservists_nep": "3.2",
+        "raam": "4.2",
+        "joint_list": "7.1",
+        "amcha_yisrael": "0.6",
+        "haredi_public": "0.0",
+        "other": "1.4"
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 18.0,
+     "shas": 6.5,
+     "utj": 5.9,
+     "rzp_zehut": 5.1,
+     "otzma": 6.6,
+     "together": 12.0,
+     "yashar": 17.0,
+     "democrats": 7.3,
+     "yisrael_beiteinu": 6.0,
+     "reservists_nep": 2.4,
+     "raam": 3.5,
+     "joint_list": 5.7,
+     "amcha_yisrael": 2.3,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "shares_unrounded": {
+     "likud": 17.97568035029741,
+     "shas": 6.524760779969936,
+     "utj": 5.8533148052460096,
+     "rzp_zehut": 5.098603644549777,
+     "otzma": 6.5969428154716905,
+     "together": 12.016791147141095,
+     "yashar": 17.024653557332066,
+     "democrats": 7.2890769042748635,
+     "yisrael_beiteinu": 6.006418061423374,
+     "reservists_nep": 2.403436955957273,
+     "raam": 3.4523834802738946,
+     "joint_list": 5.741507149318637,
+     "amcha_yisrael": 2.2748546076461094,
+     "haredi_public": 0.3144867576677556,
+     "other": 1.4270889834301184
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 24,
+     "shas": 8,
+     "utj": 8,
+     "rzp_zehut": 6,
+     "otzma": 8,
+     "together": 16,
+     "yashar": 22,
+     "democrats": 9,
+     "yisrael_beiteinu": 7,
+     "reservists_nep": 0,
+     "raam": 4,
+     "joint_list": 8,
+     "amcha_yisrael": 0,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 54,
+     "opposition": 54,
+     "arab": 12,
+     "outside": 0,
+     "coalition_plus_amcha": 54
+    },
+    "bloc_shares": {
+     "coalition": 42.04930239553482,
+     "opposition": 44.74037662612867,
+     "arab": 9.19389062959253,
+     "outside": 4.016430348743984,
+     "coalition_plus_amcha": 44.324157003180936
+    },
+    "largest_list": "likud",
+    "largest_lists_by_seats": [
+     "likud"
+    ],
+    "signature": [
+     {
+      "quantity": "Arab including Druze in-person proxy turnout",
+      "unit": "percent of registered voters",
+      "baseline": 58.983469275483635,
+      "scenario": 44.6,
+      "observe": "Aggregate ballots cast and registered voters in the frozen Arab and Druze box proxies, excluding separately counted envelopes; also report the official Arab/Druze locality series separately because the populations differ."
+     },
+     {
+      "quantity": "Arab effective sector turnout",
+      "unit": "percent of registered voters",
+      "sector": "arab",
+      "baseline": 66.8,
+      "scenario": 50.9934873424407,
+      "observe": "Use the frozen 2022 ballot-box sector proxy: ballots cast / registered voters, plus a neutral proportional allocation of separately counted double-envelope ballots; report the in-person rate separately."
+     },
+     {
+      "quantity": "Ra'am and Joint List share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "raam",
+       "joint_list"
+      ],
+      "baseline": 11.3,
+      "scenario": 9.19389062959253,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 42.04930239553482,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 54,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {},
+    "sector_reweighting": {
+     "changed_sector": "arab",
+     "turnout_before_pct": 66.8,
+     "turnout_after_pct": 50.9934873424407,
+     "valid_vote_weights_before_pct": {
+      "jewish_other": 77.322,
+      "haredi": 8.843,
+      "arab": 12.782,
+      "druze": 1.053
+     },
+     "valid_vote_weights_after_pct": {
+      "jewish_other": 79.73356857573965,
+      "haredi": 9.118801206839782,
+      "arab": 10.061788571960633,
+      "druze": 1.0858416454599447
+     },
+     "formula": "new mass of changed sector = old vote weight * new turnout / old turnout; other masses unchanged; normalize masses; sum unchanged sector list profiles against new weights"
+    }
+   },
+   {
+    "id": "S6",
+    "name": "Haredi mobilisation weakens",
+    "mechanism": "Haredi effective turnout falls to the turnout memo's 72% low end while all sector list preferences remain fixed.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "Use the expressly permitted turnout-memo alternative: 79.7% to 72.0%, a 7.7-point fall, without turning historical seat misses into invented abstentions.",
+     "parameters": {
+      "haredi_effective_target": {
+       "value": 72.0,
+       "unit": "percent of registered voters",
+       "source_ids": [
+        "low_end",
+        "definition"
+       ],
+       "derivation": "Apply the memo's subjective community turnout low end directly to the effective Haredi proxy."
+      },
+      "turnout_drop": {
+       "value": 7.700000000000003,
+       "unit": "turnout percentage points",
+       "source_ids": [
+        "low_end",
+        "sealed_haredi"
+       ],
+       "derivation": "Sealed turnout minus 72.0."
+      }
+     },
+     "sources": {
+      "low_end": {
+       "file": "models/lucuma/memos/runs/turnout/memo.md",
+       "sha256": "3126760b172a12753048757bc6c7e8f179505d90ea08515196d687158af0cfe3",
+       "line": 77,
+       "quote": "| **Haredi** | **79%** | **72–85%** | Below the three-city historical benchmark, allowing dissatisfaction and weaker enforcement of communal participation. Strong final rabbinic instructions and organised mobilisation limit the expected decline. Nationwide measurement is the weakest of the three estimates. |"
+      },
+      "definition": {
+       "file": "models/lucuma/memos/runs/turnout/memo.md",
+       "sha256": "3126760b172a12753048757bc6c7e8f179505d90ea08515196d687158af0cfe3",
+       "line": 71,
+       "quote": "The final estimates below are **subjective marginal 10th–90th percentile ranges**, not survey confidence intervals or a fitted, back-tested turnout model. Overall means ballots cast divided by registered electors. Community estimates target eligible members of those communities, with extra uncertainty because their historical observations are geographic proxies. Arab includes Druze; Haredi includes Haredi settlers. These overlapping categories must not be added independently."
+      },
+      "envelopes": {
+       "file": "data/clean/sectors_2022_box.csv",
+       "sha256": "7546326aa2a7c9daf7349e68db6b8fc98f5311e6d984cde9c05a773a659613a1",
+       "csv_record": 6,
+       "selector": {
+        "sector": "double_envelope"
+       },
+       "value": {
+        "sector": "double_envelope",
+        "registered": "0",
+        "voted": "462807",
+        "valid": "458714",
+        "ballot_boxes": "838",
+        "turnout": "",
+        "share_of_national_valid": "0.0963",
+        "מחל": "0.2352",
+        "ט": "0.1545",
+        "שס": "0.0684",
+        "ג": "0.0374",
+        "פה": "0.1693",
+        "כן": "0.1065",
+        "ל": "0.057",
+        "אמת": "0.0512",
+        "מרצ": "0.0313",
+        "עם": "0.0175",
+        "ום": "0.0171",
+        "ד": "0.0159",
+        "ב": "0.0148",
+        "other_lists": "0.0239",
+        "bloc_coalition": "0.4955",
+        "bloc_opposition": "0.4153",
+        "bloc_arab": "0.0505"
+       }
+      },
+      "total": {
+       "file": "data/clean/sectors_2022_box.csv",
+       "sha256": "7546326aa2a7c9daf7349e68db6b8fc98f5311e6d984cde9c05a773a659613a1",
+       "csv_record": 7,
+       "selector": {
+        "sector": "TOTAL"
+       },
+       "value": {
+        "sector": "TOTAL",
+        "registered": "6788804",
+        "voted": "4794593",
+        "valid": "4764742",
+        "ballot_boxes": "12545",
+        "turnout": "0.7063",
+        "share_of_national_valid": "1.0",
+        "מחל": "0.2341",
+        "ט": "0.1084",
+        "שס": "0.0825",
+        "ג": "0.0588",
+        "פה": "0.1779",
+        "כן": "0.0908",
+        "ל": "0.0448",
+        "אמת": "0.0369",
+        "מרצ": "0.0316",
+        "עם": "0.0407",
+        "ום": "0.0375",
+        "ד": "0.0291",
+        "ב": "0.0119",
+        "other_lists": "0.015",
+        "bloc_coalition": "0.4838",
+        "bloc_opposition": "0.3821",
+        "bloc_arab": "0.1073"
+       }
+      },
+      "sealed_jewish_other": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 2,
+       "selector": {
+        "sector": "jewish_other"
+       },
+       "value": {
+        "sector": "jewish_other",
+        "name": "Jewish, not Haredi",
+        "valid_vote_weight_pct": "77.322",
+        "turnout_pct": "71.9",
+        "likud": "21.4",
+        "shas": "5.4",
+        "utj": "1.6",
+        "rzp_zehut": "5.8",
+        "otzma": "7.5",
+        "together": "14.5",
+        "yashar": "20.0",
+        "democrats": "8.4",
+        "yisrael_beiteinu": "6.9",
+        "reservists_nep": "2.8",
+        "raam": "0.3",
+        "joint_list": "1.0",
+        "amcha_yisrael": "2.6",
+        "haredi_public": "0.2",
+        "other": "1.6"
+       }
+      },
+      "sealed_haredi": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 3,
+       "selector": {
+        "sector": "haredi"
+       },
+       "value": {
+        "sector": "haredi",
+        "name": "Haredi",
+        "valid_vote_weight_pct": "8.843",
+        "turnout_pct": "79.7",
+        "likud": "5.4",
+        "shas": "23.2",
+        "utj": "49.6",
+        "rzp_zehut": "4.0",
+        "otzma": "5.2",
+        "together": "1.9",
+        "yashar": "3.1",
+        "democrats": "1.1",
+        "yisrael_beiteinu": "1.6",
+        "reservists_nep": "0.5",
+        "raam": "0.2",
+        "joint_list": "0.3",
+        "amcha_yisrael": "1.7",
+        "haredi_public": "1.7",
+        "other": "0.5"
+       }
+      },
+      "sealed_arab": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 4,
+       "selector": {
+        "sector": "arab"
+       },
+       "value": {
+        "sector": "arab",
+        "name": "Arab",
+        "valid_vote_weight_pct": "12.782",
+        "turnout_pct": "66.8",
+        "likud": "3.4",
+        "shas": "0.9",
+        "utj": "0.5",
+        "rzp_zehut": "1.0",
+        "otzma": "1.3",
+        "together": "2.2",
+        "yashar": "3.9",
+        "democrats": "3.5",
+        "yisrael_beiteinu": "1.7",
+        "reservists_nep": "0.9",
+        "raam": "31.3",
+        "joint_list": "48.1",
+        "amcha_yisrael": "0.4",
+        "haredi_public": "0.0",
+        "other": "0.9"
+       }
+      },
+      "sealed_druze": {
+       "file": "prediction/2026-10-27_0146/sectors.csv",
+       "sha256": "534cb941ca47606254d981ecb84b92ae3e56d82543e7083c8e806ec40421990d",
+       "csv_record": 5,
+       "selector": {
+        "sector": "druze"
+       },
+       "value": {
+        "sector": "druze",
+        "name": "Druze",
+        "valid_vote_weight_pct": "1.053",
+        "turnout_pct": "55.7",
+        "likud": "7.2",
+        "shas": "1.2",
+        "utj": "0.4",
+        "rzp_zehut": "0.8",
+        "otzma": "1.1",
+        "together": "5.6",
+        "yashar": "37.1",
+        "democrats": "12.8",
+        "yisrael_beiteinu": "17.3",
+        "reservists_nep": "3.2",
+        "raam": "4.2",
+        "joint_list": "7.1",
+        "amcha_yisrael": "0.6",
+        "haredi_public": "0.0",
+        "other": "1.4"
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 17.6,
+     "shas": 6.2,
+     "utj": 5.3,
+     "rzp_zehut": 5.0,
+     "otzma": 6.5,
+     "together": 11.8,
+     "yashar": 16.8,
+     "democrats": 7.2,
+     "yisrael_beiteinu": 5.9,
+     "reservists_nep": 2.4,
+     "raam": 4.3,
+     "joint_list": 7.1,
+     "amcha_yisrael": 2.2,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "shares_unrounded": {
+     "likud": 17.6394004036164,
+     "shas": 6.209480767362429,
+     "utj": 5.313039660581255,
+     "rzp_zehut": 4.983038516174238,
+     "otzma": 6.447392000431694,
+     "together": 11.804497333549365,
+     "yashar": 16.74426274010828,
+     "democrats": 7.226819020907721,
+     "yisrael_beiteinu": 5.913016938223624,
+     "reservists_nep": 2.3739751669371945,
+     "raam": 4.3299277292351475,
+     "joint_list": 7.080583408143315,
+     "amcha_yisrael": 2.222613912949566,
+     "haredi_public": 0.2929540076069467,
+     "other": 1.4189983941728308
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 23,
+     "shas": 8,
+     "utj": 7,
+     "rzp_zehut": 6,
+     "otzma": 8,
+     "together": 15,
+     "yashar": 22,
+     "democrats": 9,
+     "yisrael_beiteinu": 8,
+     "reservists_nep": 0,
+     "raam": 5,
+     "joint_list": 9,
+     "amcha_yisrael": 0,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 52,
+     "opposition": 54,
+     "arab": 14,
+     "outside": 0,
+     "coalition_plus_amcha": 52
+    },
+    "bloc_shares": {
+     "coalition": 40.59235134816601,
+     "opposition": 44.062571199726186,
+     "arab": 11.410511137378464,
+     "outside": 3.9345663147293437,
+     "coalition_plus_amcha": 42.81496526111558
+    },
+    "largest_list": "likud",
+    "largest_lists_by_seats": [
+     "likud"
+    ],
+    "signature": [
+     {
+      "quantity": "Haredi effective sector turnout",
+      "unit": "percent of registered voters",
+      "sector": "haredi",
+      "baseline": 79.7,
+      "scenario": 72.0,
+      "observe": "Use the frozen 2022 ballot-box sector proxy: ballots cast / registered voters, plus a neutral proportional allocation of separately counted double-envelope ballots; report the in-person rate separately."
+     },
+     {
+      "quantity": "Haredi in-person proxy turnout",
+      "unit": "percent of registered voters",
+      "baseline": 72.88279037073393,
+      "scenario": 65.18279037073393,
+      "observe": "Ballots cast / registered voters in the frozen Haredi box proxy, excluding envelopes; the implied value assumes the 2022 neutral envelope contribution stays fixed."
+     },
+     {
+      "quantity": "Shas and UTJ share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "shas",
+       "utj"
+      ],
+      "baseline": 12.100000000000001,
+      "scenario": 11.522520427943684,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 40.59235134816601,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 52,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {
+     "together": {
+      "allocation": 15,
+      "from_displayed_shares": 16
+     },
+     "yisrael_beiteinu": {
+      "allocation": 8,
+      "from_displayed_shares": 7
+     }
+    },
+    "sector_reweighting": {
+     "changed_sector": "haredi",
+     "turnout_before_pct": 79.7,
+     "turnout_after_pct": 72.0,
+     "valid_vote_weights_before_pct": {
+      "jewish_other": 77.322,
+      "haredi": 8.843,
+      "arab": 12.782,
+      "druze": 1.053
+     },
+     "valid_vote_weights_after_pct": {
+      "jewish_other": 77.98828710870104,
+      "haredi": 8.05749608173792,
+      "arab": 12.892143061785994,
+      "druze": 1.062073747775047
+     },
+     "formula": "new mass of changed sector = old vote weight * new turnout / old turnout; other masses unchanged; normalize masses; sum unchanged sector list profiles against new weights"
+    }
+   },
+   {
+    "id": "S7",
+    "name": "The two leaders squeeze their camps",
+    "mechanism": "Likud and Yashar gain the seat-equivalent late consolidation of Likud and Blue and White in April 2019, funded proportionally by their own smaller camp lists.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "The leaders gained 6.11 and 5.89 seats over their final-poll means, 12.00 combined; convert each by 100/120 to 5.091667 and 4.908333 points, 10.0 combined.",
+     "parameters": {
+      "likud_gain": {
+       "value": 5.091666666666667,
+       "unit": "valid-vote percentage points (seat-equivalent)",
+       "source_ids": [
+        "likud_2019a"
+       ],
+       "derivation": "-error * 100/120."
+      },
+      "yashar_gain": {
+       "value": 4.908333333333333,
+       "unit": "valid-vote percentage points (seat-equivalent)",
+       "source_ids": [
+        "challenger_2019a"
+       ],
+       "derivation": "-error * 100/120."
+      },
+      "combined_gain": {
+       "value": 10.0,
+       "unit": "valid-vote percentage points (seat-equivalent)",
+       "source_ids": [
+        "likud_2019a",
+        "challenger_2019a"
+       ],
+       "derivation": "Sum the two converted gains."
+      }
+     },
+     "sources": {
+      "likud_2019a": {
+       "file": "analysis/poll_errors.csv",
+       "sha256": "2d8bfa37e016afa83b3a8959887e3ddf493713a64558bbc2fe7a7d3dd819615c",
+       "csv_record": 186,
+       "selector": {
+        "election": "2019a",
+        "level": "final_mean",
+        "metric": "likud",
+        "list": "likud",
+        "house": "ALL"
+       },
+       "value": {
+        "election": "2019a",
+        "level": "final_mean",
+        "metric": "likud",
+        "list": "likud",
+        "house": "ALL",
+        "publisher": "",
+        "pollster_raw": "",
+        "fieldwork_end": "",
+        "polled": "28.89",
+        "result": "35",
+        "error": "-6.11",
+        "n_polls": "9",
+        "result_pct": "",
+        "share_polls_below": "",
+        "mean_all_polls_14d": ""
+       }
+      },
+      "challenger_2019a": {
+       "file": "analysis/poll_errors.csv",
+       "sha256": "2d8bfa37e016afa83b3a8959887e3ddf493713a64558bbc2fe7a7d3dd819615c",
+       "csv_record": 187,
+       "selector": {
+        "election": "2019a",
+        "level": "final_mean",
+        "metric": "main_challenger",
+        "list": "blue_white",
+        "house": "ALL"
+       },
+       "value": {
+        "election": "2019a",
+        "level": "final_mean",
+        "metric": "main_challenger",
+        "list": "blue_white",
+        "house": "ALL",
+        "publisher": "",
+        "pollster_raw": "",
+        "fieldwork_end": "",
+        "polled": "29.11",
+        "result": "35",
+        "error": "-5.89",
+        "n_polls": "9",
+        "result_pct": "",
+        "share_polls_below": "",
+        "mean_all_polls_14d": ""
+       }
+      },
+      "baseline": {
+       "file": "prediction/2026-10-27_0146/prediction.json",
+       "sha256": "104e1e8e641e768d236b30e4640be6937aaf4108fa3d16cb01147fc5f039d8e2",
+       "json_pointer": "/national/original/shares",
+       "value": {
+        "likud": 17.5,
+        "shas": 6.4,
+        "utj": 5.7,
+        "rzp_zehut": 5.0,
+        "otzma": 6.4,
+        "together": 11.7,
+        "yashar": 16.6,
+        "democrats": 7.2,
+        "yisrael_beiteinu": 5.9,
+        "reservists_nep": 2.4,
+        "raam": 4.3,
+        "joint_list": 7.0,
+        "amcha_yisrael": 2.2,
+        "haredi_public": 0.3,
+        "other": 1.4
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 22.6,
+     "shas": 5.1,
+     "utj": 4.6,
+     "rzp_zehut": 4.0,
+     "otzma": 5.1,
+     "together": 9.6,
+     "yashar": 21.5,
+     "democrats": 5.9,
+     "yisrael_beiteinu": 4.8,
+     "reservists_nep": 2.0,
+     "raam": 4.3,
+     "joint_list": 7.0,
+     "amcha_yisrael": 1.8,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "shares_unrounded": {
+     "likud": 22.59166666666667,
+     "shas": 5.132036316472115,
+     "utj": 4.570719844357977,
+     "rzp_zehut": 4.009403372243839,
+     "otzma": 5.132036316472115,
+     "together": 9.588694852941176,
+     "yashar": 21.508333333333333,
+     "democrats": 5.900735294117647,
+     "yisrael_beiteinu": 4.835324754901961,
+     "reservists_nep": 1.9669117647058822,
+     "raam": 4.3,
+     "joint_list": 7.0,
+     "amcha_yisrael": 1.7641374837872894,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 29,
+     "shas": 6,
+     "utj": 6,
+     "rzp_zehut": 5,
+     "otzma": 6,
+     "together": 12,
+     "yashar": 29,
+     "democrats": 7,
+     "yisrael_beiteinu": 6,
+     "reservists_nep": 0,
+     "raam": 5,
+     "joint_list": 9,
+     "amcha_yisrael": 0,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 52,
+     "opposition": 54,
+     "arab": 14,
+     "outside": 0,
+     "coalition_plus_amcha": 52
+    },
+    "bloc_shares": {
+     "coalition": 41.435862516212715,
+     "opposition": 43.8,
+     "arab": 11.3,
+     "outside": 3.4641374837872894,
+     "coalition_plus_amcha": 43.2
+    },
+    "largest_list": "likud",
+    "largest_lists_by_seats": [
+     "likud",
+     "yashar"
+    ],
+    "signature": [
+     {
+      "quantity": "Likud and Yashar share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "yashar"
+      ],
+      "baseline": 34.1,
+      "scenario": 44.1,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Likud share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud"
+      ],
+      "baseline": 17.5,
+      "scenario": 22.59166666666667,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Yashar share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "yashar"
+      ],
+      "baseline": 16.6,
+      "scenario": 21.508333333333333,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Smaller right-camp lists share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma",
+       "amcha_yisrael"
+      ],
+      "baseline": 25.700000000000003,
+      "scenario": 20.608333333333334,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Smaller opposition lists share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "together",
+       "democrats",
+       "yisrael_beiteinu",
+       "reservists_nep"
+      ],
+      "baseline": 27.2,
+      "scenario": 22.291666666666664,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 41.435862516212715,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 52,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {},
+    "transfers_pp": {
+     "likud": {
+      "shas": -1.2679636835278858,
+      "utj": -1.1292801556420233,
+      "rzp_zehut": -0.9905966277561609,
+      "otzma": -1.2679636835278858,
+      "amcha_yisrael": -0.43586251621271077
+     },
+     "yashar": {
+      "together": -2.1113051470588236,
+      "democrats": -1.2992647058823532,
+      "yisrael_beiteinu": -1.0646752450980392,
+      "reservists_nep": -0.4330882352941176
+     }
+    }
+   },
+   {
+    "id": "S8",
+    "name": "Both small lists cross the threshold",
+    "mechanism": "Reservists and Amcha each reach the lowest observed passing share under the 3.25% threshold, funded proportionally by their respective camps.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "Ra'am-Balad in April 2019: 143,666 / 4,309,270 valid votes, 3.333882% (recorded as 3.334%); lower than Ra'am 2021.",
+     "parameters": {
+      "each_list_target": {
+       "value": 3.333882536949414,
+       "unit": "percent of valid votes",
+       "source_ids": [
+        "minimum_passing"
+       ],
+       "derivation": "Minimum votes / valid_votes_total * 100 among passed_threshold=True rows at threshold_pct=3.25 in the 2015-2022 record."
+      }
+     },
+     "sources": {
+      "minimum_passing": {
+       "file": "data/clean/results_past.csv",
+       "sha256": "7db9567016b5b98d61b369cb35e1f0522071b08df049181e7b4d0a8342dd948b",
+       "csv_record": 37,
+       "selector": {
+        "election": "2019a",
+        "list": "raam_balad"
+       },
+       "value": {
+        "election": "2019a",
+        "n": "11",
+        "list_name": "United Arab List–Balad",
+        "votes": "143666",
+        "seats": "4",
+        "list": "raam_balad",
+        "valid_votes_total": "4309270",
+        "pct": "3.334",
+        "threshold_pct": "3.25",
+        "passed_threshold": "True",
+        "bloc": "arab"
+       }
+      },
+      "baseline": {
+       "file": "prediction/2026-10-27_0146/prediction.json",
+       "sha256": "104e1e8e641e768d236b30e4640be6937aaf4108fa3d16cb01147fc5f039d8e2",
+       "json_pointer": "/national/original/shares",
+       "value": {
+        "likud": 17.5,
+        "shas": 6.4,
+        "utj": 5.7,
+        "rzp_zehut": 5.0,
+        "otzma": 6.4,
+        "together": 11.7,
+        "yashar": 16.6,
+        "democrats": 7.2,
+        "yisrael_beiteinu": 5.9,
+        "reservists_nep": 2.4,
+        "raam": 4.3,
+        "joint_list": 7.0,
+        "amcha_yisrael": 2.2,
+        "haredi_public": 0.3,
+        "other": 1.4
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 17.0,
+     "shas": 6.2,
+     "utj": 5.6,
+     "rzp_zehut": 4.9,
+     "otzma": 6.2,
+     "together": 11.4,
+     "yashar": 16.2,
+     "democrats": 7.1,
+     "yisrael_beiteinu": 5.8,
+     "reservists_nep": 3.3,
+     "raam": 4.3,
+     "joint_list": 7.0,
+     "amcha_yisrael": 3.3,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "shares_unrounded": {
+     "likud": 17.01602574642403,
+     "shas": 6.22300370154936,
+     "utj": 5.542362671692398,
+     "rzp_zehut": 4.861721641835437,
+     "otzma": 6.22300370154936,
+     "together": 11.436076674340383,
+     "yashar": 16.225544683252167,
+     "democrats": 7.037585645747928,
+     "yisrael_beiteinu": 5.766910459710108,
+     "reservists_nep": 3.333882536949414,
+     "raam": 4.3,
+     "joint_list": 7.0,
+     "amcha_yisrael": 3.333882536949414,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 21,
+     "shas": 7,
+     "utj": 7,
+     "rzp_zehut": 6,
+     "otzma": 7,
+     "together": 14,
+     "yashar": 20,
+     "democrats": 9,
+     "yisrael_beiteinu": 7,
+     "reservists_nep": 4,
+     "raam": 5,
+     "joint_list": 9,
+     "amcha_yisrael": 4,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 48,
+     "opposition": 54,
+     "arab": 14,
+     "outside": 4,
+     "coalition_plus_amcha": 52
+    },
+    "bloc_shares": {
+     "coalition": 39.866117463050585,
+     "opposition": 43.8,
+     "arab": 11.3,
+     "outside": 5.033882536949414,
+     "coalition_plus_amcha": 43.2
+    },
+    "largest_list": "likud",
+    "largest_lists_by_seats": [
+     "likud"
+    ],
+    "signature": [
+     {
+      "quantity": "Reservists share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "reservists_nep"
+      ],
+      "baseline": 2.4,
+      "scenario": 3.333882536949414,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Amcha share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "amcha_yisrael"
+      ],
+      "baseline": 2.2,
+      "scenario": 3.333882536949414,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "reservists_nep passes the threshold",
+      "unit": "boolean",
+      "list_id": "reservists_nep",
+      "baseline": false,
+      "scenario": true,
+      "observe": "Official valid-vote share is at least 3.25%; inspect official seats separately."
+     },
+     {
+      "quantity": "amcha_yisrael passes the threshold",
+      "unit": "boolean",
+      "list_id": "amcha_yisrael",
+      "baseline": false,
+      "scenario": true,
+      "observe": "Official valid-vote share is at least 3.25%; inspect official seats separately."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 39.866117463050585,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 48,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {},
+    "transfers_pp": {
+     "reservists_nep": {
+      "together": -0.26392332565961696,
+      "yashar": -0.37445531674783267,
+      "democrats": -0.16241435425207199,
+      "yisrael_beiteinu": -0.13308954028989234
+     },
+     "amcha_yisrael": {
+      "likud": -0.4839742535759693,
+      "shas": -0.1769962984506402,
+      "utj": -0.1576373283076014,
+      "rzp_zehut": -0.13827835816456263,
+      "otzma": -0.1769962984506402
+     }
+    }
+   },
+   {
+    "id": "S9",
+    "name": "Yashar loses new-party enthusiasm",
+    "mechanism": "Yashar loses the mean historical brand-new-party overrating to Together, Democrats, Yisrael Beiteinu and Likud in proportion to their sealed shares.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "Equal weight to all seven brand-new-party cases in section d for 2015-2021, including both zero-poll cases and Kulanu's negative error; alliances and first separate runs excluded.",
+     "parameters": {
+      "mean_overrating": {
+       "value": 2.492857142857143,
+       "unit": "seats per new party",
+       "source_ids": [
+        "2015_kulanu",
+        "2015_yachad",
+        "2019a_new_right",
+        "2019a_zehut",
+        "2019a_gesher",
+        "2021_new_hope",
+        "2021_new_economic"
+       ],
+       "derivation": "Arithmetic mean of seven poll-minus-result errors: -1.23, 4.15, 6.11, 5.56, 0, 2.86, 0."
+      },
+      "yashar_loss": {
+       "value": 2.077380952380952,
+       "unit": "valid-vote percentage points (seat-equivalent)",
+       "source_ids": [
+        "2015_kulanu",
+        "2015_yachad",
+        "2019a_new_right",
+        "2019a_zehut",
+        "2019a_gesher",
+        "2021_new_hope",
+        "2021_new_economic"
+       ],
+       "derivation": "Mean seat error * 100/120."
+      }
+     },
+     "sources": {
+      "2015_kulanu": {
+       "file": "analysis/poll_errors.csv",
+       "sha256": "2d8bfa37e016afa83b3a8959887e3ddf493713a64558bbc2fe7a7d3dd819615c",
+       "csv_record": 165,
+       "selector": {
+        "election": "2015",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "kulanu",
+        "house": "ALL"
+       },
+       "value": {
+        "election": "2015",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "kulanu",
+        "house": "ALL",
+        "publisher": "",
+        "pollster_raw": "",
+        "fieldwork_end": "",
+        "polled": "8.77",
+        "result": "10",
+        "error": "-1.23",
+        "n_polls": "13",
+        "result_pct": "",
+        "share_polls_below": "",
+        "mean_all_polls_14d": ""
+       }
+      },
+      "2015_yachad": {
+       "file": "analysis/poll_errors.csv",
+       "sha256": "2d8bfa37e016afa83b3a8959887e3ddf493713a64558bbc2fe7a7d3dd819615c",
+       "csv_record": 166,
+       "selector": {
+        "election": "2015",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "yachad",
+        "house": "ALL"
+       },
+       "value": {
+        "election": "2015",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "yachad",
+        "house": "ALL",
+        "publisher": "",
+        "pollster_raw": "",
+        "fieldwork_end": "",
+        "polled": "4.15",
+        "result": "0",
+        "error": "4.15",
+        "n_polls": "13",
+        "result_pct": "",
+        "share_polls_below": "",
+        "mean_all_polls_14d": ""
+       }
+      },
+      "2019a_new_right": {
+       "file": "analysis/poll_errors.csv",
+       "sha256": "2d8bfa37e016afa83b3a8959887e3ddf493713a64558bbc2fe7a7d3dd819615c",
+       "csv_record": 316,
+       "selector": {
+        "election": "2019a",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "new_right",
+        "house": "ALL"
+       },
+       "value": {
+        "election": "2019a",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "new_right",
+        "house": "ALL",
+        "publisher": "",
+        "pollster_raw": "",
+        "fieldwork_end": "",
+        "polled": "6.11",
+        "result": "0",
+        "error": "6.11",
+        "n_polls": "9",
+        "result_pct": "",
+        "share_polls_below": "",
+        "mean_all_polls_14d": ""
+       }
+      },
+      "2019a_zehut": {
+       "file": "analysis/poll_errors.csv",
+       "sha256": "2d8bfa37e016afa83b3a8959887e3ddf493713a64558bbc2fe7a7d3dd819615c",
+       "csv_record": 317,
+       "selector": {
+        "election": "2019a",
+        "level": "new_list",
+        "metric": "new party (first Knesset run)",
+        "list": "zehut",
+        "house": "ALL"
+       },
+       "value": {
+        "election": "2019a",
+        "level": "new_list",
+        "metric": "new party (first Knesset run)",
+        "list": "zehut",
+        "house": "ALL",
+        "publisher": "",
+        "pollster_raw": "",
+        "fieldwork_end": "",
+        "polled": "5.56",
+        "result": "0",
+        "error": "5.56",
+        "n_polls": "9",
+        "result_pct": "",
+        "share_polls_below": "",
+        "mean_all_polls_14d": ""
+       }
+      },
+      "2019a_gesher": {
+       "file": "analysis/poll_errors.csv",
+       "sha256": "2d8bfa37e016afa83b3a8959887e3ddf493713a64558bbc2fe7a7d3dd819615c",
+       "csv_record": 318,
+       "selector": {
+        "election": "2019a",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "gesher",
+        "house": "ALL"
+       },
+       "value": {
+        "election": "2019a",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "gesher",
+        "house": "ALL",
+        "publisher": "",
+        "pollster_raw": "",
+        "fieldwork_end": "",
+        "polled": "0.0",
+        "result": "0",
+        "error": "0.0",
+        "n_polls": "9",
+        "result_pct": "",
+        "share_polls_below": "",
+        "mean_all_polls_14d": ""
+       }
+      },
+      "2021_new_hope": {
+       "file": "analysis/poll_errors.csv",
+       "sha256": "2d8bfa37e016afa83b3a8959887e3ddf493713a64558bbc2fe7a7d3dd819615c",
+       "csv_record": 625,
+       "selector": {
+        "election": "2021",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "new_hope",
+        "house": "ALL"
+       },
+       "value": {
+        "election": "2021",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "new_hope",
+        "house": "ALL",
+        "publisher": "",
+        "pollster_raw": "",
+        "fieldwork_end": "",
+        "polled": "8.86",
+        "result": "6",
+        "error": "2.86",
+        "n_polls": "7",
+        "result_pct": "",
+        "share_polls_below": "",
+        "mean_all_polls_14d": ""
+       }
+      },
+      "2021_new_economic": {
+       "file": "analysis/poll_errors.csv",
+       "sha256": "2d8bfa37e016afa83b3a8959887e3ddf493713a64558bbc2fe7a7d3dd819615c",
+       "csv_record": 626,
+       "selector": {
+        "election": "2021",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "new_economic",
+        "house": "ALL"
+       },
+       "value": {
+        "election": "2021",
+        "level": "new_list",
+        "metric": "new party",
+        "list": "new_economic",
+        "house": "ALL",
+        "publisher": "",
+        "pollster_raw": "",
+        "fieldwork_end": "",
+        "polled": "0.0",
+        "result": "0",
+        "error": "0.0",
+        "n_polls": "7",
+        "result_pct": "",
+        "share_polls_below": "",
+        "mean_all_polls_14d": ""
+       }
+      },
+      "definition": {
+       "file": "analysis/poll_errors.md",
+       "sha256": "f927d4965232acdf150a55a8d41eb39d2d1de7868ae25f6a499521617700d531",
+       "line": 90,
+       "quote": "## (d) New lists vs their final polls"
+      },
+      "baseline": {
+       "file": "prediction/2026-10-27_0146/prediction.json",
+       "sha256": "104e1e8e641e768d236b30e4640be6937aaf4108fa3d16cb01147fc5f039d8e2",
+       "json_pointer": "/national/original/shares",
+       "value": {
+        "likud": 17.5,
+        "shas": 6.4,
+        "utj": 5.7,
+        "rzp_zehut": 5.0,
+        "otzma": 6.4,
+        "together": 11.7,
+        "yashar": 16.6,
+        "democrats": 7.2,
+        "yisrael_beiteinu": 5.9,
+        "reservists_nep": 2.4,
+        "raam": 4.3,
+        "joint_list": 7.0,
+        "amcha_yisrael": 2.2,
+        "haredi_public": 0.3,
+        "other": 1.4
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 18.4,
+     "shas": 6.4,
+     "utj": 5.7,
+     "rzp_zehut": 5.0,
+     "otzma": 6.4,
+     "together": 12.3,
+     "yashar": 14.5,
+     "democrats": 7.5,
+     "yisrael_beiteinu": 6.2,
+     "reservists_nep": 2.4,
+     "raam": 4.3,
+     "joint_list": 7.0,
+     "amcha_yisrael": 2.2,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "shares_unrounded": {
+     "likud": 18.3594365642238,
+     "shas": 6.4,
+     "utj": 5.7,
+     "rzp_zehut": 5.0,
+     "otzma": 6.4,
+     "together": 12.274594731509625,
+     "yashar": 14.522619047619049,
+     "democrats": 7.553596757852077,
+     "yisrael_beiteinu": 6.189752898795453,
+     "reservists_nep": 2.4,
+     "raam": 4.3,
+     "joint_list": 7.0,
+     "amcha_yisrael": 2.2,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 24,
+     "shas": 8,
+     "utj": 7,
+     "rzp_zehut": 6,
+     "otzma": 8,
+     "together": 16,
+     "yashar": 19,
+     "democrats": 10,
+     "yisrael_beiteinu": 8,
+     "reservists_nep": 0,
+     "raam": 5,
+     "joint_list": 9,
+     "amcha_yisrael": 0,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 53,
+     "opposition": 53,
+     "arab": 14,
+     "outside": 0,
+     "coalition_plus_amcha": 53
+    },
+    "bloc_shares": {
+     "coalition": 41.8594365642238,
+     "opposition": 42.940563435776205,
+     "arab": 11.3,
+     "outside": 3.9,
+     "coalition_plus_amcha": 44.0594365642238
+    },
+    "largest_list": "likud",
+    "largest_lists_by_seats": [
+     "likud"
+    ],
+    "signature": [
+     {
+      "quantity": "Yashar share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "yashar"
+      ],
+      "baseline": 16.6,
+      "scenario": 14.522619047619049,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Recipient lists' combined share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "together",
+       "democrats",
+       "yisrael_beiteinu",
+       "likud"
+      ],
+      "baseline": 42.3,
+      "scenario": 44.37738095238095,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Likud share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud"
+      ],
+      "baseline": 17.5,
+      "scenario": 18.3594365642238,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 41.8594365642238,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 53,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {},
+    "transfers_pp": {
+     "yashar": -2.077380952380952,
+     "together": 0.574594731509625,
+     "democrats": 0.353596757852077,
+     "yisrael_beiteinu": 0.28975289879545196,
+     "likud": 0.8594365642237982
+    }
+   },
+   {
+    "id": "S10",
+    "name": "The voter archetypes are right",
+    "mechanism": "The complete Rambutan v2 national vote distribution describes the electorate, replacing the blended Original.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "Copy Rambutan v2's unrounded national shares; its existing one-decimal shares are retained for display and its precise shares for seats.",
+     "parameters": {
+      "replacement_shares": {
+       "value": {
+        "likud": 19.371378968857364,
+        "shas": 6.09795757069807,
+        "utj": 4.7435907097137715,
+        "rzp_zehut": 3.859495173549841,
+        "otzma": 6.711388522573341,
+        "other": 1.0814555816588576,
+        "together": 19.938381732326164,
+        "yashar": 11.13398830667433,
+        "democrats": 7.45088987166531,
+        "yisrael_beiteinu": 5.139936085765496,
+        "reservists_nep": 2.0410947071377525,
+        "raam": 4.285330529998829,
+        "joint_list": 6.352566324652695,
+        "amcha_yisrael": 1.3267018372585264,
+        "haredi_public": 0.4658440774697713
+       },
+       "unit": "percent of valid votes",
+       "source_ids": [
+        "series"
+       ],
+       "derivation": "Copy shares_unrounded_pct with no transfer or blending."
+      }
+     },
+     "sources": {
+      "series": {
+       "file": "models/rambutan-v2/national.json",
+       "sha256": "2ec340ed4a0d8595824cdb48f9c32cb394602a963763db94838aa562e807800c",
+       "json_pointer": "/shares_unrounded_pct",
+       "value": {
+        "likud": 19.371378968857364,
+        "shas": 6.09795757069807,
+        "utj": 4.7435907097137715,
+        "rzp_zehut": 3.859495173549841,
+        "otzma": 6.711388522573341,
+        "other": 1.0814555816588576,
+        "together": 19.938381732326164,
+        "yashar": 11.13398830667433,
+        "democrats": 7.45088987166531,
+        "yisrael_beiteinu": 5.139936085765496,
+        "reservists_nep": 2.0410947071377525,
+        "raam": 4.285330529998829,
+        "joint_list": 6.352566324652695,
+        "amcha_yisrael": 1.3267018372585264,
+        "haredi_public": 0.4658440774697713
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 19.4,
+     "shas": 6.1,
+     "utj": 4.7,
+     "rzp_zehut": 3.9,
+     "otzma": 6.7,
+     "together": 19.9,
+     "yashar": 11.1,
+     "democrats": 7.5,
+     "yisrael_beiteinu": 5.1,
+     "reservists_nep": 2.0,
+     "raam": 4.3,
+     "joint_list": 6.4,
+     "amcha_yisrael": 1.3,
+     "haredi_public": 0.5,
+     "other": 1.1
+    },
+    "shares_unrounded": {
+     "likud": 19.371378968857364,
+     "shas": 6.09795757069807,
+     "utj": 4.7435907097137715,
+     "rzp_zehut": 3.859495173549841,
+     "otzma": 6.711388522573341,
+     "together": 19.938381732326164,
+     "yashar": 11.13398830667433,
+     "democrats": 7.45088987166531,
+     "yisrael_beiteinu": 5.139936085765496,
+     "reservists_nep": 2.0410947071377525,
+     "raam": 4.285330529998829,
+     "joint_list": 6.352566324652695,
+     "amcha_yisrael": 1.3267018372585264,
+     "haredi_public": 0.4658440774697713,
+     "other": 1.0814555816588576
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 25,
+     "shas": 8,
+     "utj": 6,
+     "rzp_zehut": 4,
+     "otzma": 8,
+     "together": 26,
+     "yashar": 14,
+     "democrats": 10,
+     "yisrael_beiteinu": 6,
+     "reservists_nep": 0,
+     "raam": 5,
+     "joint_list": 8,
+     "amcha_yisrael": 0,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 51,
+     "opposition": 56,
+     "arab": 13,
+     "outside": 0,
+     "coalition_plus_amcha": 51
+    },
+    "bloc_shares": {
+     "coalition": 40.78381094539239,
+     "opposition": 45.70429070356905,
+     "arab": 10.637896854651524,
+     "outside": 2.874001496387155,
+     "coalition_plus_amcha": 42.110512782650915
+    },
+    "largest_list": "together",
+    "largest_lists_by_seats": [
+     "together"
+    ],
+    "signature": [
+     {
+      "quantity": "Together share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "together"
+      ],
+      "baseline": 11.7,
+      "scenario": 19.938381732326164,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Yashar share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "yashar"
+      ],
+      "baseline": 16.6,
+      "scenario": 11.13398830667433,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Shas and UTJ share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "shas",
+       "utj"
+      ],
+      "baseline": 12.100000000000001,
+      "scenario": 10.841548280411843,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 40.78381094539239,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 51,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {
+     "shas": {
+      "allocation": 8,
+      "from_displayed_shares": 7
+     },
+     "rzp_zehut": {
+      "allocation": 4,
+      "from_displayed_shares": 5
+     }
+    }
+   },
+   {
+    "id": "S11",
+    "name": "The social-media lean persists",
+    "mechanism": "Carambola v1's saved list moves shift the v2 Original, followed by normalization to all valid votes.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "Use the corrected v1 moves in carambola.json, add once to the sealed v2 Original and normalize; the rejected v2 social weight is not changed in the main forecast.",
+     "parameters": {
+      "moves": {
+       "value": {
+        "likud": 0.553,
+        "rzp_zehut": 0.165,
+        "otzma": 0.8,
+        "together": -0.495,
+        "yashar": -0.8,
+        "democrats": -0.29,
+        "yisrael_beiteinu": -0.265,
+        "reservists_nep": -0.108,
+        "raam": -0.328,
+        "joint_list": -0.187,
+        "amcha_yisrael": -0.278
+       },
+       "unit": "valid-vote percentage points before normalization",
+       "source_ids": [
+        "moves"
+       ],
+       "derivation": "Add each saved move; unlisted lists receive zero raw move."
+      },
+      "normalization_factor": {
+       "value": 1.0124839268176618,
+       "unit": "multiplier",
+       "source_ids": [
+        "moves",
+        "baseline"
+       ],
+       "derivation": "100 / (100 + sum of saved moves)."
+      }
+     },
+     "sources": {
+      "moves": {
+       "file": "models/carambola/carambola.json",
+       "sha256": "d4bc346b7904a4b666b7e7036079a3d12591728fbba6e0cb6f75d2a481cbc3f5",
+       "json_pointer": "/2026/moves_pts",
+       "value": {
+        "likud": 0.553,
+        "rzp_zehut": 0.165,
+        "otzma": 0.8,
+        "together": -0.495,
+        "yashar": -0.8,
+        "democrats": -0.29,
+        "yisrael_beiteinu": -0.265,
+        "reservists_nep": -0.108,
+        "raam": -0.328,
+        "joint_list": -0.187,
+        "amcha_yisrael": -0.278
+       }
+      },
+      "baseline": {
+       "file": "prediction/2026-10-27_0146/prediction.json",
+       "sha256": "104e1e8e641e768d236b30e4640be6937aaf4108fa3d16cb01147fc5f039d8e2",
+       "json_pointer": "/national/original/shares",
+       "value": {
+        "likud": 17.5,
+        "shas": 6.4,
+        "utj": 5.7,
+        "rzp_zehut": 5.0,
+        "otzma": 6.4,
+        "together": 11.7,
+        "yashar": 16.6,
+        "democrats": 7.2,
+        "yisrael_beiteinu": 5.9,
+        "reservists_nep": 2.4,
+        "raam": 4.3,
+        "joint_list": 7.0,
+        "amcha_yisrael": 2.2,
+        "haredi_public": 0.3,
+        "other": 1.4
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 18.3,
+     "shas": 6.5,
+     "utj": 5.8,
+     "rzp_zehut": 5.2,
+     "otzma": 7.3,
+     "together": 11.3,
+     "yashar": 16.0,
+     "democrats": 7.0,
+     "yisrael_beiteinu": 5.7,
+     "reservists_nep": 2.3,
+     "raam": 4.0,
+     "joint_list": 6.9,
+     "amcha_yisrael": 2.0,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "shares_unrounded": {
+     "likud": 18.27837233083925,
+     "shas": 6.479897131633035,
+     "utj": 5.771158382860673,
+     "rzp_zehut": 5.2294794820132235,
+     "otzma": 7.289884273087165,
+     "together": 11.344882399991901,
+     "yashar": 15.997246043719057,
+     "democrats": 6.9962639343100435,
+     "yisrael_beiteinu": 5.7053469276175255,
+     "reservists_nep": 2.3206131602660807,
+     "raam": 4.021586157319753,
+     "joint_list": 6.898052993408729,
+     "amcha_yisrael": 1.9459941073435463,
+     "haredi_public": 0.30374517804529855,
+     "other": 1.4174774975447266
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 24,
+     "shas": 8,
+     "utj": 7,
+     "rzp_zehut": 6,
+     "otzma": 9,
+     "together": 15,
+     "yashar": 21,
+     "democrats": 9,
+     "yisrael_beiteinu": 7,
+     "reservists_nep": 0,
+     "raam": 5,
+     "joint_list": 9,
+     "amcha_yisrael": 0,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 54,
+     "opposition": 52,
+     "arab": 14,
+     "outside": 0,
+     "coalition_plus_amcha": 54
+    },
+    "bloc_shares": {
+     "coalition": 43.04879160043335,
+     "opposition": 42.36435246590461,
+     "arab": 10.919639150728482,
+     "outside": 3.6672167829335716,
+     "coalition_plus_amcha": 44.99478570777689
+    },
+    "largest_list": "likud",
+    "largest_lists_by_seats": [
+     "likud"
+    ],
+    "signature": [
+     {
+      "quantity": "Likud share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud"
+      ],
+      "baseline": 17.5,
+      "scenario": 18.27837233083925,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Otzma share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "otzma"
+      ],
+      "baseline": 6.4,
+      "scenario": 7.289884273087165,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Yashar share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "yashar"
+      ],
+      "baseline": 16.6,
+      "scenario": 15.997246043719057,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 43.04879160043335,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 54,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {
+     "utj": {
+      "allocation": 7,
+      "from_displayed_shares": 8
+     },
+     "yashar": {
+      "allocation": 21,
+      "from_displayed_shares": 20
+     }
+    }
+   },
+   {
+    "id": "S12",
+    "name": "A 2015-style Likud surge",
+    "mechanism": "Likud gains its 2015 final-poll shortfall in seat-equivalent vote points, drawn proportionally from its smaller camp lists and Together and Yashar.",
+    "is_forecast": false,
+    "included_in_original": false,
+    "size": {
+     "description": "Likud's 22-seat final-poll mean versus 30 official seats gives +8 seats, converted to +6.666667 vote points; donors share one proportional pool.",
+     "parameters": {
+      "likud_gain": {
+       "value": 6.666666666666667,
+       "unit": "valid-vote percentage points (seat-equivalent)",
+       "source_ids": [
+        "likud_2015"
+       ],
+       "derivation": "(30-22)*100/120."
+      }
+     },
+     "sources": {
+      "likud_2015": {
+       "file": "analysis/poll_errors.csv",
+       "sha256": "2d8bfa37e016afa83b3a8959887e3ddf493713a64558bbc2fe7a7d3dd819615c",
+       "csv_record": 16,
+       "selector": {
+        "election": "2015",
+        "level": "final_mean",
+        "metric": "likud",
+        "list": "likud",
+        "house": "ALL"
+       },
+       "value": {
+        "election": "2015",
+        "level": "final_mean",
+        "metric": "likud",
+        "list": "likud",
+        "house": "ALL",
+        "publisher": "",
+        "pollster_raw": "",
+        "fieldwork_end": "",
+        "polled": "22.0",
+        "result": "30",
+        "error": "-8.0",
+        "n_polls": "13",
+        "result_pct": "",
+        "share_polls_below": "",
+        "mean_all_polls_14d": ""
+       }
+      },
+      "baseline": {
+       "file": "prediction/2026-10-27_0146/prediction.json",
+       "sha256": "104e1e8e641e768d236b30e4640be6937aaf4108fa3d16cb01147fc5f039d8e2",
+       "json_pointer": "/national/original/shares",
+       "value": {
+        "likud": 17.5,
+        "shas": 6.4,
+        "utj": 5.7,
+        "rzp_zehut": 5.0,
+        "otzma": 6.4,
+        "together": 11.7,
+        "yashar": 16.6,
+        "democrats": 7.2,
+        "yisrael_beiteinu": 5.9,
+        "reservists_nep": 2.4,
+        "raam": 4.3,
+        "joint_list": 7.0,
+        "amcha_yisrael": 2.2,
+        "haredi_public": 0.3,
+        "other": 1.4
+       }
+      }
+     }
+    },
+    "shares": {
+     "likud": 24.2,
+     "shas": 5.6,
+     "utj": 5.0,
+     "rzp_zehut": 4.4,
+     "otzma": 5.6,
+     "together": 10.3,
+     "yashar": 14.5,
+     "democrats": 7.2,
+     "yisrael_beiteinu": 5.9,
+     "reservists_nep": 2.4,
+     "raam": 4.3,
+     "joint_list": 7.0,
+     "amcha_yisrael": 1.9,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "shares_unrounded": {
+     "likud": 24.166666666666668,
+     "shas": 5.609876543209877,
+     "utj": 4.996296296296297,
+     "rzp_zehut": 4.382716049382716,
+     "otzma": 5.609876543209877,
+     "together": 10.255555555555555,
+     "yashar": 14.550617283950618,
+     "democrats": 7.2,
+     "yisrael_beiteinu": 5.9,
+     "reservists_nep": 2.4,
+     "raam": 4.3,
+     "joint_list": 7.0,
+     "amcha_yisrael": 1.9283950617283951,
+     "haredi_public": 0.3,
+     "other": 1.4
+    },
+    "seats_input": "shares_unrounded",
+    "seats": {
+     "likud": 32,
+     "shas": 7,
+     "utj": 6,
+     "rzp_zehut": 5,
+     "otzma": 7,
+     "together": 13,
+     "yashar": 19,
+     "democrats": 9,
+     "yisrael_beiteinu": 8,
+     "reservists_nep": 0,
+     "raam": 5,
+     "joint_list": 9,
+     "amcha_yisrael": 0,
+     "haredi_public": 0,
+     "other": 0
+    },
+    "blocs": {
+     "coalition": 57,
+     "opposition": 49,
+     "arab": 14,
+     "outside": 0,
+     "coalition_plus_amcha": 57
+    },
+    "bloc_shares": {
+     "coalition": 44.76543209876544,
+     "opposition": 40.306172839506175,
+     "arab": 11.3,
+     "outside": 3.628395061728395,
+     "coalition_plus_amcha": 46.69382716049383
+    },
+    "largest_list": "likud",
+    "largest_lists_by_seats": [
+     "likud"
+    ],
+    "signature": [
+     {
+      "quantity": "Likud share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud"
+      ],
+      "baseline": 17.5,
+      "scenario": 24.166666666666668,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Together and Yashar share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "together",
+       "yashar"
+      ],
+      "baseline": 28.3,
+      "scenario": 24.806172839506175,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Smaller right-camp lists share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma",
+       "amcha_yisrael"
+      ],
+      "baseline": 25.700000000000003,
+      "scenario": 22.52716049382716,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition share",
+      "unit": "percent of valid votes",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 41.0,
+      "scenario": 44.76543209876544,
+      "observe": "Sum these lists' official valid votes and divide by all official valid votes, including failed lists."
+     },
+     {
+      "quantity": "Coalition seats",
+      "unit": "seats",
+      "list_ids": [
+       "likud",
+       "shas",
+       "utj",
+       "rzp_zehut",
+       "otzma"
+      ],
+      "baseline": 52,
+      "scenario": 57,
+      "observe": "Sum the five government lists' official seats; exclude Amcha."
+     }
+    ],
+    "display_rounding_seat_changes": {},
+    "transfers_pp": {
+     "likud": 6.666666666666667,
+     "shas": -0.7901234567901235,
+     "utj": -0.7037037037037037,
+     "rzp_zehut": -0.617283950617284,
+     "otzma": -0.7901234567901235,
+     "amcha_yisrael": -0.271604938271605,
+     "together": -1.4444444444444444,
+     "yashar": -2.049382716049383
+    }
+   }
+  ]
+ }
+}
