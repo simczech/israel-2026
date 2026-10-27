@@ -1,0 +1,1074 @@
+{
+ "schema": 1,
+ "nonce": "0c623533009c6419e38b2555dae9ca62",
+ "election": "israel/2026/parliament",
+ "version": "2026-10-26_2348",
+ "madeAt": "2026-10-26T23:49:39+01:00",
+ "cutoff": "2026-10-27T07:00:00+02:00",
+ "rules": "PLAN-2026-10-27-israel.md (github: rules are summarised in README)",
+ "base": "shares of valid votes; seats by the Bader-Ofer rule with the 2026 surplus-vote agreements",
+ "agreements": [
+  [
+   "together",
+   "yisrael_beiteinu"
+  ],
+  [
+   "yashar",
+   "democrats"
+  ],
+  [
+   "joint_list",
+   "raam"
+  ],
+  [
+   "likud",
+   "rzp_zehut"
+  ],
+  [
+   "shas",
+   "utj"
+  ]
+ ],
+ "options": [
+  {
+   "id": "likud",
+   "name": "Likud",
+   "detail": "Benjamin Netanyahu; with New Hope",
+   "short": "Likud"
+  },
+  {
+   "id": "shas",
+   "name": "Shas",
+   "detail": "Aryeh Deri",
+   "short": "Shas"
+  },
+  {
+   "id": "utj",
+   "name": "United Torah Judaism",
+   "detail": "Degel HaTorah and Agudat Yisrael",
+   "short": "UTJ"
+  },
+  {
+   "id": "rzp_zehut",
+   "name": "Religious Zionism–Zehut",
+   "detail": "Bezalel Smotrich",
+   "short": "RZP–Zehut"
+  },
+  {
+   "id": "otzma",
+   "name": "Otzma Yehudit",
+   "detail": "Itamar Ben-Gvir",
+   "short": "Otzma Yehudit"
+  },
+  {
+   "id": "together",
+   "name": "Together",
+   "detail": "Naftali Bennett, with Yair Lapid's Yesh Atid",
+   "short": "Together"
+  },
+  {
+   "id": "yashar",
+   "name": "Yashar!",
+   "detail": "Gadi Eisenkot",
+   "short": "Yashar!"
+  },
+  {
+   "id": "democrats",
+   "name": "The Democrats",
+   "detail": "Yair Golan",
+   "short": "Democrats"
+  },
+  {
+   "id": "yisrael_beiteinu",
+   "name": "Yisrael Beiteinu",
+   "detail": "Avigdor Lieberman",
+   "short": "Yisrael Beiteinu"
+  },
+  {
+   "id": "reservists_nep",
+   "name": "The Reservists – Economic Party",
+   "detail": "Yoaz Hendel and Yaron Zelekha",
+   "short": "Reservists"
+  },
+  {
+   "id": "raam",
+   "name": "Ra'am",
+   "detail": "Mansour Abbas",
+   "short": "Ra'am"
+  },
+  {
+   "id": "joint_list",
+   "name": "Joint List",
+   "detail": "Hadash, Ta'al and Balad",
+   "short": "Joint List"
+  },
+  {
+   "id": "amcha_yisrael",
+   "name": "Amcha Yisrael",
+   "detail": "Ofer Winter",
+   "short": "Amcha Yisrael"
+  },
+  {
+   "id": "haredi_public",
+   "name": "Haredi Public",
+   "detail": "Moti Litner",
+   "short": "Haredi Public"
+  },
+  {
+   "id": "other",
+   "name": "Other lists",
+   "detail": "all other lists, including Noam",
+   "short": "Others"
+  }
+ ],
+ "blocs": {
+  "coalition": [
+   "likud",
+   "shas",
+   "utj",
+   "rzp_zehut",
+   "otzma"
+  ],
+  "coalition_plus": [
+   "likud",
+   "shas",
+   "utj",
+   "rzp_zehut",
+   "otzma",
+   "amcha_yisrael"
+  ],
+  "opposition": [
+   "together",
+   "yashar",
+   "democrats",
+   "yisrael_beiteinu",
+   "reservists_nep"
+  ],
+  "arab": [
+   "raam",
+   "joint_list"
+  ]
+ },
+ "national": {
+  "original": {
+   "weights": {
+    "loquat": 0.4,
+    "lucuma": 0.35,
+    "carambola": 0.15,
+    "rambutan": 0.1
+   },
+   "shares": {
+    "likud": 17.6,
+    "shas": 6.4,
+    "utj": 5.7,
+    "rzp_zehut": 5.1,
+    "otzma": 6.5,
+    "together": 11.6,
+    "yashar": 16.5,
+    "democrats": 7.2,
+    "yisrael_beiteinu": 5.8,
+    "reservists_nep": 2.4,
+    "raam": 4.3,
+    "joint_list": 7.1,
+    "amcha_yisrael": 2.1,
+    "haredi_public": 0.3,
+    "other": 1.4
+   },
+   "range": {
+    "likud": [
+     14.3,
+     22.4
+    ],
+    "shas": [
+     5.1,
+     8.0
+    ],
+    "utj": [
+     4.9,
+     6.9
+    ],
+    "rzp_zehut": [
+     3.9,
+     6.5
+    ],
+    "otzma": [
+     4.8,
+     8.2
+    ],
+    "together": [
+     8.4,
+     12.6
+    ],
+    "yashar": [
+     14.5,
+     19.4
+    ],
+    "democrats": [
+     5.7,
+     8.5
+    ],
+    "yisrael_beiteinu": [
+     4.3,
+     7.2
+    ],
+    "reservists_nep": [
+     1.2,
+     3.7
+    ],
+    "raam": [
+     3.1,
+     5.6
+    ],
+    "joint_list": [
+     5.5,
+     8.6
+    ],
+    "amcha_yisrael": [
+     1.1,
+     3.5
+    ],
+    "haredi_public": [
+     0.1,
+     0.9
+    ],
+    "other": [
+     0.9,
+     2.2
+    ]
+   },
+   "seats": {
+    "likud": 23,
+    "shas": 8,
+    "utj": 7,
+    "rzp_zehut": 6,
+    "otzma": 8,
+    "together": 15,
+    "yashar": 22,
+    "democrats": 9,
+    "yisrael_beiteinu": 7,
+    "reservists_nep": 0,
+    "raam": 6,
+    "joint_list": 9,
+    "amcha_yisrael": 0,
+    "haredi_public": 0,
+    "other": 0
+   },
+   "seats_range": {
+    "likud": [
+     18,
+     29
+    ],
+    "shas": [
+     6,
+     10
+    ],
+    "utj": [
+     6,
+     9
+    ],
+    "rzp_zehut": [
+     5,
+     8
+    ],
+    "otzma": [
+     6,
+     10
+    ],
+    "together": [
+     11,
+     16
+    ],
+    "yashar": [
+     19,
+     25
+    ],
+    "democrats": [
+     7,
+     11
+    ],
+    "yisrael_beiteinu": [
+     5,
+     9
+    ],
+    "reservists_nep": [
+     0,
+     4
+    ],
+    "raam": [
+     2,
+     7
+    ],
+    "joint_list": [
+     7,
+     11
+    ],
+    "amcha_yisrael": [
+     0,
+     4
+    ],
+    "haredi_public": [
+     0,
+     0
+    ],
+    "other": [
+     0,
+     0
+    ]
+   },
+   "blocs": {
+    "coalition": 52,
+    "coalition_plus": 52,
+    "opposition": 53,
+    "arab": 15
+   },
+   "blocs_range": {
+    "coalition": [
+     47,
+     61
+    ],
+    "coalition_plus": [
+     48,
+     61
+    ],
+    "arab": [
+     11,
+     17
+    ],
+    "opposition": [
+     46,
+     57
+    ]
+   },
+   "probabilities": {
+    "p_coalition_61": 10.5,
+    "p_largest": {
+     "likud": 50.1,
+     "together": 0.7,
+     "yashar": 49.1,
+     "another_list": 0.2
+    },
+    "p_pass": {
+     "likud": 99.9,
+     "shas": 99.1,
+     "utj": 99.6,
+     "rzp_zehut": 96.7,
+     "otzma": 98.4,
+     "together": 99.8,
+     "yashar": 100.0,
+     "democrats": 99.4,
+     "yisrael_beiteinu": 98.1,
+     "reservists_nep": 18.4,
+     "raam": 88.1,
+     "joint_list": 99.3,
+     "amcha_yisrael": 14.2,
+     "haredi_public": 0.4
+    }
+   },
+   "turnout": 71.7,
+   "turnout_range": [
+    68.4,
+    74.4
+   ]
+  },
+  "loquat": {
+   "shares": {
+    "likud": 17.41,
+    "shas": 6.23,
+    "utj": 5.88,
+    "rzp_zehut": 5.18,
+    "otzma": 6.39,
+    "together": 10.98,
+    "yashar": 16.57,
+    "democrats": 7.39,
+    "yisrael_beiteinu": 6.04,
+    "reservists_nep": 2.37,
+    "raam": 4.36,
+    "joint_list": 7.03,
+    "amcha_yisrael": 2.4,
+    "haredi_public": 0.12,
+    "other": 1.65
+   },
+   "range": {
+    "likud": [
+     13.9306,
+     22.1948
+    ],
+    "shas": [
+     4.7452,
+     7.6917
+    ],
+    "utj": [
+     4.9403,
+     6.7965
+    ],
+    "rzp_zehut": [
+     3.9706,
+     6.3565
+    ],
+    "otzma": [
+     4.5668,
+     8.1783
+    ],
+    "together": [
+     8.8653,
+     12.8659
+    ],
+    "yashar": [
+     14.5239,
+     18.5386
+    ],
+    "democrats": [
+     6.0018,
+     8.7451
+    ],
+    "yisrael_beiteinu": [
+     4.576,
+     7.2909
+    ],
+    "reservists_nep": [
+     1.1538,
+     3.5548
+    ],
+    "raam": [
+     2.9896,
+     5.6585
+    ],
+    "joint_list": [
+     5.3881,
+     8.6199
+    ],
+    "amcha_yisrael": [
+     1.2666,
+     3.5472
+    ],
+    "haredi_public": [
+     0.0,
+     0.6602
+    ],
+    "other": [
+     1.0275,
+     2.2965
+    ]
+   },
+   "seats_range": {
+    "likud": [
+     18,
+     29
+    ],
+    "shas": [
+     6,
+     10
+    ],
+    "utj": [
+     6,
+     9
+    ],
+    "rzp_zehut": [
+     5,
+     8
+    ],
+    "otzma": [
+     5,
+     10
+    ],
+    "together": [
+     11,
+     17
+    ],
+    "yashar": [
+     19,
+     24
+    ],
+    "democrats": [
+     7,
+     11
+    ],
+    "yisrael_beiteinu": [
+     6,
+     9
+    ],
+    "reservists_nep": [
+     0,
+     4
+    ],
+    "raam": [
+     0,
+     7
+    ],
+    "joint_list": [
+     7,
+     11
+    ],
+    "amcha_yisrael": [
+     0,
+     4
+    ],
+    "haredi_public": [
+     0,
+     0
+    ],
+    "other": [
+     0,
+     0
+    ]
+   },
+   "probabilities": {
+    "p_coalition_61": 6.9725,
+    "p_largest": {
+     "likud": 50.3617,
+     "together": 0.3954,
+     "yashar": 49.2129,
+     "another_list": 0.03
+    },
+    "p_pass": {
+     "likud": 99.9925,
+     "shas": 98.735,
+     "utj": 99.665,
+     "rzp_zehut": 97.01,
+     "otzma": 97.6625,
+     "together": 99.9625,
+     "yashar": 99.995,
+     "democrats": 99.695,
+     "yisrael_beiteinu": 99.035,
+     "reservists_nep": 16.625,
+     "raam": 85.5525,
+     "joint_list": 99.2575,
+     "amcha_yisrael": 16.5375,
+     "haredi_public": 0.0075
+    }
+   },
+   "blocs_range": {
+    "coalition": [
+     46,
+     60
+    ],
+    "arab": [
+     10,
+     17
+    ],
+    "opposition": [
+     47,
+     58
+    ],
+    "coalition_plus": [
+     47,
+     60
+    ]
+   },
+   "turnout": 71.58801447206311,
+   "turnout_range": [
+    69.1598,
+    74.0113
+   ],
+   "seats": {
+    "likud": 23,
+    "shas": 8,
+    "utj": 7,
+    "rzp_zehut": 6,
+    "otzma": 8,
+    "together": 14,
+    "yashar": 22,
+    "democrats": 9,
+    "yisrael_beiteinu": 8,
+    "reservists_nep": 0,
+    "raam": 6,
+    "joint_list": 9,
+    "amcha_yisrael": 0,
+    "haredi_public": 0,
+    "other": 0
+   },
+   "blocs": {
+    "coalition": 52,
+    "coalition_plus": 52,
+    "opposition": 53,
+    "arab": 15
+   }
+  },
+  "lucuma": {
+   "shares": {
+    "likud": 17.13,
+    "shas": 6.85,
+    "utj": 5.7,
+    "rzp_zehut": 5.0,
+    "otzma": 6.23,
+    "together": 10.35,
+    "yashar": 18.23,
+    "democrats": 6.68,
+    "yisrael_beiteinu": 5.72,
+    "reservists_nep": 2.62,
+    "raam": 4.35,
+    "joint_list": 7.25,
+    "amcha_yisrael": 2.1,
+    "haredi_public": 0.58,
+    "other": 1.2
+   },
+   "range": {
+    "likud": [
+     14.450000000000001,
+     22.333333333333332
+    ],
+    "shas": [
+     5.6000000000000005,
+     8.516666666666667
+    ],
+    "utj": [
+     4.866666666666666,
+     6.95
+    ],
+    "rzp_zehut": [
+     3.716666666666667,
+     6.583333333333333
+    ],
+    "otzma": [
+     4.883333333333334,
+     7.75
+    ],
+    "together": [
+     7.8999999999999995,
+     12.450000000000001
+    ],
+    "yashar": [
+     14.783333333333333,
+     20.933333333333334
+    ],
+    "democrats": [
+     5.25,
+     8.133333333333333
+    ],
+    "yisrael_beiteinu": [
+     4.066666666666666,
+     7.116666666666667
+    ],
+    "reservists_nep": [
+     1.3,
+     3.8833333333333333
+    ],
+    "raam": [
+     3.516666666666667,
+     5.683333333333334
+    ],
+    "joint_list": [
+     5.683333333333334,
+     8.666666666666666
+    ],
+    "amcha_yisrael": [
+     0.8833333333333333,
+     3.466666666666667
+    ],
+    "haredi_public": [
+     0.18333333333333335,
+     1.25
+    ],
+    "other": [
+     0.5833333333333334,
+     2.1166666666666667
+    ]
+   },
+   "seats_range": {
+    "likud": [
+     18.166666666666668,
+     28.666666666666668
+    ],
+    "shas": [
+     7.0,
+     11.166666666666666
+    ],
+    "utj": [
+     6.0,
+     8.666666666666666
+    ],
+    "rzp_zehut": [
+     4.333333333333333,
+     8.0
+    ],
+    "otzma": [
+     6.0,
+     9.333333333333334
+    ],
+    "together": [
+     9.833333333333334,
+     15.833333333333334
+    ],
+    "yashar": [
+     18.666666666666668,
+     27.0
+    ],
+    "democrats": [
+     6.5,
+     10.166666666666666
+    ],
+    "yisrael_beiteinu": [
+     4.833333333333333,
+     9.0
+    ],
+    "reservists_nep": [
+     0.0,
+     4.166666666666667
+    ],
+    "raam": [
+     4.0,
+     7.0
+    ],
+    "joint_list": [
+     7.0,
+     11.166666666666666
+    ],
+    "amcha_yisrael": [
+     0.0,
+     3.3333333333333335
+    ],
+    "haredi_public": [
+     0.0,
+     0.0
+    ],
+    "other": [
+     0.0,
+     0.0
+    ]
+   },
+   "probabilities": {
+    "p_coalition_61": 11.75,
+    "p_largest": {
+     "likud": 42.800000000000004,
+     "together": 1.0999999999999999,
+     "yashar": 55.76666666666667,
+     "another_list": 0.3333333333333333
+    },
+    "p_pass": {
+     "likud": 99.86666666666667,
+     "shas": 99.63333333333333,
+     "utj": 99.46666666666665,
+     "rzp_zehut": 95.83333333333333,
+     "otzma": 99.01666666666667,
+     "together": 99.66666666666667,
+     "yashar": 99.89999999999999,
+     "democrats": 98.89999999999999,
+     "yisrael_beiteinu": 96.81666666666666,
+     "reservists_nep": 21.95,
+     "raam": 95.14999999999999,
+     "joint_list": 99.39999999999999,
+     "amcha_yisrael": 12.816666666666668,
+     "haredi_public": 1.1166666666666667
+    }
+   },
+   "blocs_range": {
+    "coalition": [
+     46.833333333333336,
+     61.166666666666664
+    ],
+    "arab": [
+     11.833333333333334,
+     17.0
+    ]
+   },
+   "turnout": 71.39999999999999,
+   "turnout_range": [
+    67.23333333333333,
+    75.11666666666666
+   ],
+   "runs": [
+    "il-lucuma-1",
+    "il-lucuma-2",
+    "il-lucuma-3",
+    "il-lucuma-4",
+    "il-lucuma-5",
+    "il-lucuma-6"
+   ],
+   "seats": {
+    "likud": 22,
+    "shas": 9,
+    "utj": 7,
+    "rzp_zehut": 6,
+    "otzma": 8,
+    "together": 14,
+    "yashar": 24,
+    "democrats": 8,
+    "yisrael_beiteinu": 7,
+    "reservists_nep": 0,
+    "raam": 6,
+    "joint_list": 9,
+    "amcha_yisrael": 0,
+    "haredi_public": 0,
+    "other": 0
+   },
+   "blocs": {
+    "coalition": 52,
+    "coalition_plus": 52,
+    "opposition": 53,
+    "arab": 15
+   }
+  },
+  "carambola": {
+   "shares": {
+    "likud": 18.19,
+    "shas": 6.3,
+    "utj": 5.95,
+    "rzp_zehut": 5.42,
+    "otzma": 7.27,
+    "together": 10.61,
+    "yashar": 15.97,
+    "democrats": 7.19,
+    "yisrael_beiteinu": 5.85,
+    "reservists_nep": 2.29,
+    "raam": 4.08,
+    "joint_list": 6.93,
+    "amcha_yisrael": 2.15,
+    "haredi_public": 0.12,
+    "other": 1.67
+   },
+   "range": {
+    "likud": [
+     14.66420209016489,
+     23.029952712333998
+    ],
+    "shas": [
+     4.8042358719322165,
+     7.7874382363688
+    ],
+    "utj": [
+     5.001766024958276,
+     6.880572380752621
+    ],
+    "rzp_zehut": [
+     4.18718653274902,
+     6.6027972719022605
+    ],
+    "otzma": [
+     5.433760259817685,
+     9.090042314356916
+    ],
+    "together": [
+     8.474283075776077,
+     12.525046474556616
+    ],
+    "yashar": [
+     13.89335936199102,
+     17.959061647707188
+    ],
+    "democrats": [
+     5.782281863978988,
+     8.5601954286917
+    ],
+    "yisrael_beiteinu": [
+     4.364395918506278,
+     7.113337559979089
+    ],
+    "reservists_nep": [
+     1.0588559363192127,
+     3.4898078868068865
+    ],
+    "raam": [
+     2.69477989015258,
+     5.397078527593468
+    ],
+    "joint_list": [
+     5.265820657614917,
+     8.537827142935075
+    ],
+    "amcha_yisrael": [
+     1.0009770292674625,
+     3.3100075008574716
+    ],
+    "haredi_public": [
+     1.0082151300580175e-09,
+     0.6682883482866224
+    ],
+    "other": [
+     1.0401836585413098,
+     2.3251014325996113
+    ]
+   },
+   "seats_range": {
+    "likud": [
+     19,
+     30
+    ],
+    "shas": [
+     6,
+     10
+    ],
+    "utj": [
+     6,
+     9
+    ],
+    "rzp_zehut": [
+     5,
+     8
+    ],
+    "otzma": [
+     7,
+     11
+    ],
+    "together": [
+     11,
+     16
+    ],
+    "yashar": [
+     18,
+     24
+    ],
+    "democrats": [
+     7,
+     11
+    ],
+    "yisrael_beiteinu": [
+     5,
+     9
+    ],
+    "reservists_nep": [
+     0,
+     4
+    ],
+    "raam": [
+     0,
+     7
+    ],
+    "joint_list": [
+     7,
+     11
+    ],
+    "amcha_yisrael": [
+     0,
+     4
+    ],
+    "haredi_public": [
+     0,
+     0
+    ],
+    "other": [
+     0,
+     0
+    ]
+   },
+   "probabilities": {
+    "p_coalition_61": 17.2425,
+    "p_largest": {
+     "likud": 66.67645833333333,
+     "together": 0.28145833333333337,
+     "yashar": 32.99458333333333,
+     "another_list": 0.04749999999999943
+    },
+    "p_pass": {
+     "likud": 99.995,
+     "shas": 98.7875,
+     "utj": 99.7,
+     "rzp_zehut": 97.8275,
+     "otzma": 98.9525,
+     "together": 99.9475,
+     "yashar": 99.995,
+     "democrats": 99.6025,
+     "yisrael_beiteinu": 98.5625,
+     "reservists_nep": 14.912500000000001,
+     "raam": 78.6225,
+     "joint_list": 99.13250000000001,
+     "amcha_yisrael": 11.047500000000001,
+     "haredi_public": 0.0075
+    }
+   },
+   "blocs_range": {
+    "coalition": [
+     49,
+     62
+    ],
+    "coalition_plus": [
+     50,
+     63
+    ],
+    "arab": [
+     9,
+     16
+    ],
+    "opposition": [
+     45,
+     56
+    ]
+   },
+   "turnout": 71.58801447206311,
+   "turnout_range": [
+    69.1598,
+    74.0113
+   ],
+   "weight": 0.137,
+   "moves": {
+    "likud": 0.553,
+    "rzp_zehut": 0.165,
+    "otzma": 0.8,
+    "together": -0.495,
+    "yashar": -0.8,
+    "democrats": -0.29,
+    "yisrael_beiteinu": -0.265,
+    "reservists_nep": -0.108,
+    "raam": -0.328,
+    "joint_list": -0.187,
+    "amcha_yisrael": -0.278
+   },
+   "draws": 40000,
+   "seats": {
+    "likud": 23,
+    "shas": 8,
+    "utj": 8,
+    "rzp_zehut": 7,
+    "otzma": 9,
+    "together": 14,
+    "yashar": 21,
+    "democrats": 9,
+    "yisrael_beiteinu": 7,
+    "reservists_nep": 0,
+    "raam": 5,
+    "joint_list": 9,
+    "amcha_yisrael": 0,
+    "haredi_public": 0,
+    "other": 0
+   },
+   "blocs": {
+    "coalition": 55,
+    "coalition_plus": 55,
+    "opposition": 51,
+    "arab": 14
+   }
+  },
+  "rambutan": {
+   "shares": {
+    "likud": 18.6,
+    "shas": 6.0,
+    "utj": 4.7,
+    "rzp_zehut": 4.2,
+    "otzma": 6.5,
+    "together": 20.3,
+    "yashar": 11.1,
+    "democrats": 7.7,
+    "yisrael_beiteinu": 5.0,
+    "reservists_nep": 2.2,
+    "raam": 4.4,
+    "joint_list": 6.6,
+    "amcha_yisrael": 1.2,
+    "haredi_public": 0.5,
+    "other": 1.0
+   },
+   "turnout": 73.8,
+   "seats": {
+    "likud": 24,
+    "shas": 7,
+    "utj": 6,
+    "rzp_zehut": 5,
+    "otzma": 8,
+    "together": 26,
+    "yashar": 14,
+    "democrats": 10,
+    "yisrael_beiteinu": 6,
+    "reservists_nep": 0,
+    "raam": 6,
+    "joint_list": 8,
+    "amcha_yisrael": 0,
+    "haredi_public": 0,
+    "other": 0
+   },
+   "blocs": {
+    "coalition": 50,
+    "coalition_plus": 50,
+    "opposition": 56,
+    "arab": 14
+   }
+  }
+ }
+}
