@@ -62,3 +62,14 @@ voters, published polls and other public sources.
   turnout, probabilities).
 - `sectors.csv`: the main prediction by community: Jewish not Haredi, Haredi, Arab, Druze.
 - `runs/`: each method's own estimate as it was delivered.
+
+## Scenario set (experimental, not part of the prediction)
+
+**Simczech Pitaya: scenarios** (`2026-10-27_0201-scenarios`, sealed before the polls opened): twelve named ways the result
+could differ from our prediction, each applied to the second version with a size taken from a past case, a survey or one
+of our own sealed series: Channel 14 and Direct Polls are right; only the other pollsters are right; polls err as on
+average in 2015-2022; Arab turnout at the sector survey's level; Arab turnout at the 2021 low; weaker Haredi turnout; the
+two leading lists gain from their own camps as in April 2019; both lists near the threshold pass; Yashar disappoints like
+past brand-new parties; the archetypes are right; the social-media lean persists; a 2015-style late surge of Likud. Each
+scenario names its signature: what the official count will show if its mechanism happened. After the count we judge each
+mechanism on that evidence. These are scenarios, not forecasts: they carry no probabilities.
