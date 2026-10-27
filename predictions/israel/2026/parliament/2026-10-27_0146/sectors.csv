@@ -1,0 +1,5 @@
+sector,name,valid_vote_weight_pct,turnout_pct,likud,shas,utj,rzp_zehut,otzma,together,yashar,democrats,yisrael_beiteinu,reservists_nep,raam,joint_list,amcha_yisrael,haredi_public,other
+jewish_other,"Jewish, not Haredi",77.322,71.9,21.4,5.4,1.6,5.8,7.5,14.5,20.0,8.4,6.9,2.8,0.3,1.0,2.6,0.2,1.6
+haredi,Haredi,8.843,79.7,5.4,23.2,49.6,4.0,5.2,1.9,3.1,1.1,1.6,0.5,0.2,0.3,1.7,1.7,0.5
+arab,Arab,12.782,66.8,3.4,0.9,0.5,1.0,1.3,2.2,3.9,3.5,1.7,0.9,31.3,48.1,0.4,0.0,0.9
+druze,Druze,1.053,55.7,7.2,1.2,0.4,0.8,1.1,5.6,37.1,12.8,17.3,3.2,4.2,7.1,0.6,0.0,1.4

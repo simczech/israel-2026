@@ -1,0 +1,382 @@
+{
+ "method": "il-lucuma-8",
+ "election": "israel/2026/parliament",
+ "shares_pct": {
+  "likud": 17.3,
+  "shas": 7.3,
+  "utj": 5.7,
+  "rzp_zehut": 5.1,
+  "otzma": 6.4,
+  "together": 10.2,
+  "yashar": 18.3,
+  "democrats": 6.8,
+  "yisrael_beiteinu": 5.4,
+  "reservists_nep": 2.6,
+  "raam": 4.0,
+  "joint_list": 6.7,
+  "amcha_yisrael": 2.3,
+  "haredi_public": 0.7,
+  "other": 1.2
+ },
+ "range80_pct": {
+  "likud": [
+   14.2,
+   22.4
+  ],
+  "shas": [
+   6.1,
+   8.5
+  ],
+  "utj": [
+   4.8,
+   6.6
+  ],
+  "rzp_zehut": [
+   3.9,
+   6.2
+  ],
+  "otzma": [
+   5.1,
+   7.7
+  ],
+  "together": [
+   7.7,
+   12.2
+  ],
+  "yashar": [
+   14.6,
+   21.2
+  ],
+  "democrats": [
+   5.3,
+   8.1
+  ],
+  "yisrael_beiteinu": [
+   4.1,
+   6.4
+  ],
+  "reservists_nep": [
+   1.4,
+   4.0
+  ],
+  "raam": [
+   3.2,
+   4.8
+  ],
+  "joint_list": [
+   5.2,
+   8.0
+  ],
+  "amcha_yisrael": [
+   1.1,
+   3.7
+  ],
+  "haredi_public": [
+   0.2,
+   1.3
+  ],
+  "other": [
+   0.6,
+   1.8
+  ]
+ },
+ "seats": {
+  "likud": 23,
+  "shas": 10,
+  "utj": 7,
+  "rzp_zehut": 6,
+  "otzma": 8,
+  "together": 13,
+  "yashar": 24,
+  "democrats": 8,
+  "yisrael_beiteinu": 7,
+  "reservists_nep": 0,
+  "raam": 5,
+  "joint_list": 9,
+  "amcha_yisrael": 0,
+  "haredi_public": 0,
+  "other": 0
+ },
+ "seats_range80": {
+  "likud": [
+   18,
+   29
+  ],
+  "shas": [
+   8,
+   11
+  ],
+  "utj": [
+   6,
+   8
+  ],
+  "rzp_zehut": [
+   5,
+   8
+  ],
+  "otzma": [
+   6,
+   10
+  ],
+  "together": [
+   10,
+   16
+  ],
+  "yashar": [
+   19,
+   28
+  ],
+  "democrats": [
+   7,
+   10
+  ],
+  "yisrael_beiteinu": [
+   5,
+   8
+  ],
+  "reservists_nep": [
+   0,
+   5
+  ],
+  "raam": [
+   0,
+   6
+  ],
+  "joint_list": [
+   7,
+   10
+  ],
+  "amcha_yisrael": [
+   0,
+   4
+  ],
+  "haredi_public": [
+   0,
+   0
+  ],
+  "other": [
+   0,
+   0
+  ]
+ },
+ "blocs_seats": {
+  "coalition": 54,
+  "opposition": 52,
+  "arab": 14
+ },
+ "blocs_range80": {
+  "coalition": [
+   47,
+   62
+  ],
+  "opposition": [
+   46,
+   60
+  ],
+  "arab": [
+   8,
+   16
+  ]
+ },
+ "probabilities_pct": {
+  "p_coalition_61": 13.1,
+  "p_largest": {
+   "likud": 46.9,
+   "together": 0.0,
+   "yashar": 53.1,
+   "another_list": 0.0
+  },
+  "p_pass": {
+   "likud": 100.0,
+   "shas": 100.0,
+   "utj": 99.9,
+   "rzp_zehut": 97.7,
+   "otzma": 99.9,
+   "together": 100.0,
+   "yashar": 100.0,
+   "democrats": 99.9,
+   "yisrael_beiteinu": 98.5,
+   "reservists_nep": 28.4,
+   "raam": 87.0,
+   "joint_list": 99.9,
+   "amcha_yisrael": 19.4,
+   "haredi_public": 0.1
+  }
+ },
+ "turnout_pct": 72.0,
+ "turnout_range80_pct": [
+  68.0,
+  76.0
+ ],
+ "key_inputs": [
+  "Information boundary: only material published before 2026-10-27 05:00 UTC informed the forecast. The registered-voter denominator is 7,331,981, independently reported in the Central Elections Committee's preparations announcement on October 25; 72.0% implies approximately 5,279,000 voters, including invalid ballots. This is the registered electorate, not the smaller resident electorate. [CEC preparations report](https://ch10.co.il/en/news/1109861/), 2026-10-25.",
+  "Registration: dated reporting supports Likud incorporating New Hope, Together incorporating Bennett and Yesh Atid, Religious Zionism joining Zehut, the Democrats merger, Hendel joining Zelekha, and the reunited Hadash-Ta'al-Balad Joint List. The official candidate-list endpoint could not be retrieved, so registration verification relies on published transcriptions and reports quoting the CEC; this is a limitation rather than a claim of direct official-file authentication. [Filed lists](https://polimeter.co.il/research/candidate-lists-2026), 2026-09-09; [mergers and threshold](https://israelpolicyforum.org/2026/09/24/the-electoral-threshold-what-it-is-and-why-it-matters/), 2026-09-24.",
+  "Campaign coverage: reviewed the dated compilation of 76 polls from eight polling houses, August 3–October 23, alongside original final-poll reports and additional Kantar reporting. Within-house comparisons show Together and the Joint List improving during the final fortnight; they do not show a general late Likud surge. Repeated publications by the same house were not treated as independent evidence. This is broad campaign coverage, not a claim that every original questionnaire and weighting file was obtainable. [Campaign archive](https://elections2026.underwar.co.il/polls.html), database dated 2026-10-26.",
+  "Channel 12: Midgam, Mano Geva; published October 23, fieldwork October 22–23, n=1,018 from 5,012 invitations, internet and telephone sampling with stratification. Final seats were Yashar 23, Likud 21, Together 15, Democrats 10, Joint 9, Shas 8, Yisrael Beiteinu 8, Otzma 8, UTJ 7, RZP-Zehut 6 and Ra'am 5. Reservists were at 2.4%, Amcha 2.5%, Haredi Public 0.5%. This is the principal baseline because its coverage and disclosures are more informative than sample size alone. [N12](https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm), 2026-10-23, updated 2026-10-24.",
+  "Kantar, Dudi Chasid: Israel Hayom's final survey had n=1,110, fieldwork October 21–22, internet sampling including Arab respondents, 4,675 invitations; Yashar 23, Likud 21, Together 14, coalition 50, Arab lists 14, Reservists 4. Kan's October 23 series showed Yashar 22 and Likud 20, also coalition 50; its final sample and field dates were not recovered. These are one pollster family, not two independent confirmations, and Kantar's disclosed final Israel Hayom poll was online rather than mixed-mode. [Israel Hayom](https://www.israelhayom.co.il/news/politics/article/21687549), 2026-10-22, updated 2026-10-23.",
+  "Channel 13: HaMadad, Shmuel Rosner and Noah Slepkov, with Ariel Ayalon's Sample Project, Askaria for Haredim and Statnet for Arabs; fieldwork October 22–23, n=1,875. Final Yashar 22, Likud 19, Together 14, coalition 50, Arab lists 16; Reservists 3.0%, Amcha 3.1%. Its sector specialists and published behavioural questions are useful, although the exact mode proportions and past-vote weighting could not be reconstructed. This is a different operation from the historical Camil Fuchs Channel 13 series. [HaMadad](https://themadad.com/english/madad-poll-october-23-2026/), 2026-10-23.",
+  "Maariv/Walla: Menachem Lazar with Panel4ALL; final Maariv fieldwork October 19–22, n=1,048, online panel supplemented by Arab telephone interviews. Final Likud 19, Yashar 21, Together 15, coalition 48, Arab lists 14, Reservists 4; Amcha 3.0%. This corroborates the lower-coalition family but is somewhat older than Midgam and HaMadad; Walla and Maariv are not independent houses. [Jerusalem Post report](https://www.jpost.com/israel-election-2026/article-912649), 2026-10-23.",
+  "Channel 14: NEXT DATA, Shlomo Filber; fieldwork October 22, n=7,937, proprietary online panel. Final Likud 30, Yashar 20, Together 11 and coalition 62; Reservists 1.9%, Amcha 1.5%. The campaign-long Likud premium is approximately nine to eleven seats against the main comparison houses. A very large online sample reduces random noise but does not establish representative coverage or validate opaque adjustments. [Channel 14](https://www.c14news.com/article/1514699), 2026-10-22.",
+  "i24NEWS: Direct Polls, Tzuriel Sharon, digital-panel family; final October 23 archive reports n=5,124, Likud 26, Yashar 21, Together 12 and Amcha 4. The five coalition lists specified here total 55, not the larger media bloc total that includes Amcha. Final fieldwork dates were not verified. Direct Polls and Filber's NEXT DATA share a predecessor, so their historical successes cannot be counted twice as independent evidence.",
+  "Other series: Maagar Mochot/Yitzhak Katz for Channel 16 published on October 22, with Likud 17, Yashar 20 and both marginal new lists on four seats; reporting cited more than 5,000 respondents, but the final field dates and mode breakdown were not verified. Tatika/Yossi Tatika with Adgenda for Zman Israel published its last poll October 22: Yashar 23, Likud 21, Together 11 and Reservists 4; preceding weekly samples were 500, but I do not assume the same final sample without disclosure. These receive corroborative weight, not precise historical reliability scores. [Channel 16 report](https://www.ice.co.il/research/news/article/1134767), 2026-10-22; [Zman poll report](https://www.srugim.co.il/101014208), 2026-10-22.",
+  "Methodological choice: Davar's examination of 118 filings describes online-only collection at Filber's operation and insufficient disclosure of weighting across the industry. His explanation that mainstream panels have lost right-wing respondents is plausible but unproven; political affiliation alone is not grounds for rejection. I favour the Midgam/Kantar level, with Lazar and HaMadad corroboration, while explicitly reserving a substantial probability of shared coverage error. I could not verify exact past-vote weighting coefficients for any final series. [Davar](https://en.davar1.co.il/703573/), 2026-10-25; [IPF pollster review](https://israelpolicyforum.org/2026/08/20/israeli-election-polls-pollsters/), 2026-08-20.",
+  "Historical house evidence prevents dismissing Direct Polls: in 2021 it put Blue and White at seven seats against eight actual, while Midgam, Kantar, Fuchs and Maagar generally had four. In 2022 Direct's coalition forecast of 62 was closer to 64 than Midgam/Kantar's 60, but Direct overpredicted Likud itself, 34 versus 32; Midgam and Kantar had 31. Maagar had coalition 61 and Likud 30. Thus the record supports a coalition-error tail and a Shas correction, not a permanent ten-seat Likud correction. Comparable historical records for the current HaMadad and Tatika configurations were not established. [Historical poll tables](https://emet.press/pour-qui-roulent-les-differents-instituts-de-sondage-lequels-sont-fiables-386861.html), 2026-09-05; only numerical comparisons, not its partisan interpretation, were used.",
+  "Historical calibration: in 2015 Likud won 30 versus final polls of 20–23, Jewish Home underperformed and Yachad failed; in April 2019 both leading lists reached 35 while New Right and Zehut failed despite passing polls. September 2019 was much closer at the top but Otzma failed. In 2020 Likud modestly exceeded polls while the merged left underperformed. In 2021 Blue and White substantially exceeded polls while New Hope, Yamina and the Joint List fell short. In 2022 Shas won 11 versus 8–9, while Meretz failed despite universal passing forecasts. These patterns justify large-party consolidation and threshold risk, not an automatic rightward swing. [Historical review](https://www.israelgazette.com/election/how-wrong-were-israeli-polls-2015-to-2022/), 2026-10-09.",
+  "Late consolidation: HaMadad found 41% of opposition supporters open to switching within their camp, versus 21% of coalition supporters; only 3% overall contemplated crossing camps. I therefore move some Together, Democrats and Yisrael Beiteinu support toward Yashar, and some marginal-right support toward Likud, without imposing a large inter-bloc swing. Shas receives the clearest upward correction because its repeated past underestimation is more consistent than a generic Likud bias. The close largest-list contest increases uncertainty around both leaders.",
+  "Threshold judgement: final measurements ranged from 1.9% to a four-seat allocation for Reservists and from 1.5% to four seats for Amcha. Their weak loyalty, the incentive to avoid wasted votes and precedents involving newly established parties move their point shares below the threshold, while leaving meaningful breakthrough probabilities. Ra'am is above threshold in the point forecast but has a material downside from turnout and switching to the Joint List; its zero-seat lower range represents that discontinuity. Passing probabilities and seat intervals are calculated jointly rather than assigning every four-seat poll a certain pass.",
+  "Arab turnout: Reuters/Statnet reporting expected approximately 63%, against about 56% in its comparable 2022 measure. Crime, exclusion concerns and reunification support recovery; I use approximately 62% as a judgement, with a broad 55–69% community scenario range. This sustains 14 Arab seats centrally but does not convert HaMadad's 80% definite-voting response directly into actual turnout. Reuniting Balad with Hadash-Ta'al removes an important source of 2022 wasted Arab votes. [Reuters/Times of Israel](https://www.timesofisrael.com/turnout-among-israels-arab-voters-could-make-or-break-hopes-to-unseat-netanyahu/), 2026-10-21.",
+  "Haredi, secular, young, religious and Russian-speaking voters: I assume substantial Haredi mobilisation, broadly high-70s to low-80s turnout in core communities, but allow fragmentation into Haredi Public and minor lists to restrain UTJ. Historical Haredi-town turnout and the final party-loyalty evidence support this judgement. Opposition definite-voting advantages were modest in Kantar, 82% versus 80%, and larger in HaMadad, 88% versus 83%; these support a small secular-opposition mobilisation benefit. Religious and settler mobilisation remains strong in the baseline, but I found no verified final representative turnout estimate warranting an additional bonus. Russian-speaking immigration enlarges the potential electorate, but participation and party choice are uncertain, so I assign no automatic extra seats to Lieberman; youth religiosity is not treated as an independent late swing. [Ynet electorate analysis](https://www.ynet.co.il/news/elections2026/article/s1xkuro3fl), 2026-10-25.",
+  "Druze turnout: eight predominantly Druze authorities recorded 49.9% in the 2022 Knesset election, despite 88.2% in the different 2024 municipal contest. The populations and registers are not identical, so municipal mobilisation cannot be imported into this forecast. I assume only a modest recovery toward the mid-50s, with wide uncertainty and no large party-specific adjustment. [Druze Heritage Center](https://dhc.org.il/mabat/behirot/), 2026-10-25.",
+  "Double envelopes: pre-election CEC preparations anticipated 600,000–650,000, including reservists and displaced voters as well as other eligible categories. In 2022 the combined Religious Zionism/Otzma list received about 15.5% of valid double-envelope votes versus 10.8% nationally, while UTJ and Arab lists were underrepresented; Likud's share was approximately its national share. I allow modest relative strength for the religious right and wider uncertainty from the changed electorate, but these voters are already included in the forecast and receive no extra seat allocation after it. [Ynet](https://www.ynet.co.il/news/elections2026/article/syy1qpo2ze), 2026-10-25.",
+  "Withdrawals: Blue and White announced withdrawal October 19 and the CEC confirmed removal after all candidates resigned on October 21; Ahi announced withdrawal October 23 and its formal removal was reported October 25. Ballots for either are invalid, including already-cast ballots, and are excluded from valid-vote shares. No Blue and White endorsement was verified; its remaining supporters are assumed to disperse mainly toward Yashar and Together, with much of the move already captured by final polls. Ahi's patron endorsed Otzma on October 26, superseding an assumption that Netanyahu's role in obtaining withdrawal implied a Likud endorsement; this warrants only about a tenth of a percentage point of additional Otzma support. [Blue and White removal](https://www.jdn.co.il/news/2752151/), 2026-10-21; [Ahi removal](https://www.babli.co.il/political-political/tngzy5), 2026-10-25; [Ahi patron's endorsement](https://www.babli.co.il/political-political/tnhfgs), 2026-10-26.",
+  "After the final polls: the reported Netanyahu–military disagreement concerning possible action against Iran, the government's denials and opposition accusations intensified security messaging on October 26. There is no admissible post-ban measurement of its electoral effect. I assign no large directional swing from this disputed event, but retain additional correlated uncertainty rather than assuming final-Friday preferences are fixed. [Associated Press](https://apnews.com/article/13be720412a77fd3a3aa3a310ed1619d), 2026-10-26.",
+  "Social-media evidence receives no independent vote bonus: Zehut's conspicuous online support in 2019 did not produce threshold passage, and I found no representative 2026 conversion measure for online engagement. Feiglin's later account is evidence of the mismatch between visibility and electoral success, not proof of his explanation for it. [Israel National News interview](https://www.israelnationalnews.com/news/297027), 2021-02-17.",
+  "Market cross-check: the dated October 26 snapshot at 23:09 UTC put Yashar at 68.5% and Likud at 31.5% for most seats. This supports the direction of the point forecast, but my probabilities are closer because a one-seat central lead is fragile under correlated house errors; market prices largely respond to the same public polls. Prime-minister contracts answer a different question and were not converted into vote shares. [PricedNews](https://pricednews.com/odds/israel-election-2026), written 2026-10-20, snapshot updated 2026-10-26 before cutoff.",
+  "Seat arithmetic: 120 seats, one national constituency, closed lists and a 3.25% valid-vote threshold; majority 61. Applied Bader-Ofer with Together–Yisrael Beiteinu, Yashar–Democrats, Joint List–Ra'am, Likud–RZP-Zehut and Shas–UTJ, with each partner required to pass separately. The point forecast has 6.8% valid votes for non-qualifying lists, leaving 93.2% for seat allocation; this is why 41.8% for the specified coalition yields 54 seats. Unpaired qualifying lists remain eligible for surplus seats. [Agreement and allocation explanation](https://www.ynet.co.il/news/elections2026/article/skdhsmfsmx), 2026-10-11.",
+  "Uncertainty calculation: 80,000 judgement-based correlated share simulations, normalized to 100%, followed by thresholding and Bader-Ofer allocation. The scenario mixture assigns 80% to the preferred polling picture with broad errors, 15% to a substantial missed pro-coalition electorate and 5% to a stronger opposition outcome, alongside party-specific and turnout shocks. These scenario weights are my assumptions, not estimated historical frequencies. Marginal 10th–90th percentiles need not sum to national or bloc totals; largest-list seat ties are split equally, and probabilities rounded to 0.0 or 100.0 are not claims of logical impossibility or certainty."
+ ],
+ "sources": [
+  {
+   "url": "https://ch10.co.il/en/news/1109861/",
+   "published": "2026-10-25",
+   "used_for": "CEC preparations announcement; independent registered-electorate figure of 7,331,981."
+  },
+  {
+   "url": "https://polimeter.co.il/research/candidate-lists-2026",
+   "published": "2026-09-09",
+   "used_for": "Transcription of filed candidate lists and list configurations; not direct authentication of every subsequent CEC amendment."
+  },
+  {
+   "url": "https://www.israelhayom.co.il/news/politics/article/17537864",
+   "published": "2025-03-13",
+   "used_for": "New Hope's merger into Likud."
+  },
+  {
+   "url": "https://israelpolicyforum.org/2026/09/24/the-electoral-threshold-what-it-is-and-why-it-matters/",
+   "published": "2026-09-24",
+   "used_for": "Threshold, merger incentives and the reunited list configurations."
+  },
+  {
+   "url": "https://elections2026.underwar.co.il/polls.html",
+   "published": "2026-10-26",
+   "used_for": "Dated database of 76 pre-ban campaign polls, pollster identities, within-house trends, Kan and i24 final tables; date refers to database snapshot."
+  },
+  {
+   "url": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+   "published": "2026-10-23",
+   "used_for": "Midgam final poll, fieldwork, sample, collection modes and below-threshold shares; update October 24."
+  },
+  {
+   "url": "https://www.israelhayom.co.il/news/politics/article/21687549",
+   "published": "2026-10-22",
+   "used_for": "Kantar final poll, October 21–22 fieldwork, online sample and motivation gap; update October 23."
+  },
+  {
+   "url": "https://themadad.com/english/madad-poll-october-23-2026/",
+   "published": "2026-10-23",
+   "used_for": "HaMadad final poll, participating researchers, fieldwork, threshold shares, turnout intentions and willingness to switch."
+  },
+  {
+   "url": "https://www.jpost.com/israel-election-2026/article-912649",
+   "published": "2026-10-23",
+   "used_for": "Lazar/Panel4ALL final Maariv poll and methodology."
+  },
+  {
+   "url": "https://www.c14news.com/article/1514699",
+   "published": "2026-10-22",
+   "used_for": "NEXT DATA final poll, October 22 fieldwork, 7,937 respondents and marginal-list shares."
+  },
+  {
+   "url": "https://www.ice.co.il/research/news/article/1134767",
+   "published": "2026-10-22",
+   "used_for": "Channel 16/Yitzhak Katz final party figures; bloc totals recomputed using the requested definitions."
+  },
+  {
+   "url": "https://israelrealtime.com/2026/10/22/final-polls-diverge-on-netanyahus-majority-as-gerrer-rebbe-reportedly-withholds-endorsement/",
+   "published": "2026-10-22",
+   "used_for": "Secondary report of Channel 16's large final sample; no inference that sample size establishes accuracy."
+  },
+  {
+   "url": "https://www.srugim.co.il/101014208",
+   "published": "2026-10-22",
+   "used_for": "Final Zman Israel poll figures."
+  },
+  {
+   "url": "https://en.davar1.co.il/703573/",
+   "published": "2026-10-25",
+   "used_for": "Review of 118 polling filings, panel coverage, disclosure problems and Filber's methodological explanation."
+  },
+  {
+   "url": "https://israelpolicyforum.org/2026/08/20/israeli-election-polls-pollsters/",
+   "published": "2026-08-20",
+   "used_for": "Pollster families, demographic coverage, weighting and undecided-voter limitations."
+  },
+  {
+   "url": "https://emet.press/pour-qui-roulent-les-differents-instituts-de-sondage-lequels-sont-fiables-386861.html",
+   "published": "2026-09-05",
+   "used_for": "Historical numerical pollster comparisons, especially Direct Polls versus Midgam, Kantar, Fuchs and Maagar in 2021–2022; editorial conclusions not adopted."
+  },
+  {
+   "url": "https://www.israelgazette.com/election/how-wrong-were-israeli-polls-2015-to-2022/",
+   "published": "2026-10-09",
+   "used_for": "Dated historical review of poll misses, late consolidation, Shas underestimation and threshold failures across six elections."
+  },
+  {
+   "url": "https://www.timesofisrael.com/turnout-among-israels-arab-voters-could-make-or-break-hopes-to-unseat-netanyahu/",
+   "published": "2026-10-21",
+   "used_for": "Reuters/Statnet Arab turnout expectations and mobilisation context."
+  },
+  {
+   "url": "https://www.ynet.co.il/news/elections2026/article/s1xkuro3fl",
+   "published": "2026-10-25",
+   "used_for": "Haredi turnout history and fragmentation, Russian-speaking immigration, younger voters and overseas-electorate cautions."
+  },
+  {
+   "url": "https://dhc.org.il/mabat/behirot/",
+   "published": "2026-10-25",
+   "used_for": "Druze national versus municipal turnout, denominator differences and limits of available evidence."
+  },
+  {
+   "url": "https://www.ynet.co.il/news/elections2026/article/syy1qpo2ze",
+   "published": "2026-10-25",
+   "used_for": "Pre-election double-envelope expectations and historical voting composition."
+  },
+  {
+   "url": "https://www.jdn.co.il/news/2752151/",
+   "published": "2026-10-21",
+   "used_for": "CEC confirmation of Blue and White's formal removal and invalidity of its ballots."
+  },
+  {
+   "url": "https://www.babli.co.il/political-political/tngzy5",
+   "published": "2026-10-25",
+   "used_for": "CEC confirmation of Ahi's formal removal after all candidates resigned and invalidity of its ballots."
+  },
+  {
+   "url": "https://www.babli.co.il/political-political/tnhfgs",
+   "published": "2026-10-26",
+   "used_for": "Ahi patron Haim Yosef David Abergil's endorsement of Otzma Yehudit."
+  },
+  {
+   "url": "https://apnews.com/article/13be720412a77fd3a3aa3a310ed1619d",
+   "published": "2026-10-26",
+   "used_for": "Final-day Iran-action dispute, official denials and opposition reaction; no directional voting effect presumed."
+  },
+  {
+   "url": "https://www.israelnationalnews.com/news/297027",
+   "published": "2021-02-17",
+   "used_for": "Retrospective discussion of Zehut's strong online presence and 2019 electoral failure."
+  },
+  {
+   "url": "https://pricednews.com/odds/israel-election-2026",
+   "published": "2026-10-20",
+   "used_for": "Market cross-check using the explicitly timestamped October 26, 23:09 UTC snapshot, before cutoff."
+  },
+  {
+   "url": "https://www.ynet.co.il/news/elections2026/article/skdhsmfsmx",
+   "published": "2026-10-11",
+   "used_for": "Five surplus-vote agreements, separate threshold qualification and Bader-Ofer allocation."
+  }
+ ],
+ "contamination": "An accidental search snippet from https://cdn-votes26.bechirot.gov.il/ displayed a 26th-Knesset results page labelled test environment, timestamped 2026-10-06 17:42: 3,658,931 counted votes, 3,628,790 valid votes, 7,331,981 electors and 12,018 polling stations. The page was never opened and its test counts were excluded completely. The registered-electorate figure used here was independently verified in the dated October 25 CEC preparations report. A search also surfaced https://mapthegeneral.com/il/he/results/ with a results title and registration/list text; it was not opened or relied upon. Pre-election liveblog snippets surfaced incidentally and were discarded. No election-day turnout, party result, exit poll or election-result projection was used.",
+ "notes": "I favour Midgam and Kantar's broad picture, corroborated by Lazar and HaMadad, while representing Filber's divergence as a substantial coverage-risk scenario. Repeated Shas underestimation, modest consolidation toward Likud and Yashar, and likely failure of both borderline new lists raise the specified coalition above the preferred final polls. Arab mobilisation and reunification support the Joint List, while Haredi fragmentation restrains UTJ and no large late security-event swing is assumed. The ranges and probabilities reflect correlated judgement scenarios and threshold discontinuities; the seat point forecast is the allocation of the stated vote shares, rather than the mean of simulated seats. I follow the requested bloc definitions, including Amcha in opposition, and place Noam, Tzomet, Black Colour, Hakhel and remaining minor lists in other, each assumed below threshold."
+}

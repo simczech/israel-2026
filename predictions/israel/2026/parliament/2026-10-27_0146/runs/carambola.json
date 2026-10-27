@@ -1,0 +1,656 @@
+{
+ "made_at": "2026-10-27T00:22:17+01:00",
+ "years": {
+  "2022": {
+   "houses": 7,
+   "lists": {
+    "likud": {
+     "posts": 60,
+     "pages": {
+      "Netanyahu": 60
+     },
+     "gmean": 3718.8,
+     "E": 23.37,
+     "P": 28.51,
+     "R": 27.74,
+     "x": -5.13,
+     "y": -0.76
+    },
+    "yesh_atid": {
+     "posts": 40,
+     "pages": {
+      "YairLapid": 40
+     },
+     "gmean": 3464.1,
+     "E": 21.77,
+     "P": 22.75,
+     "R": 21.08,
+     "x": -0.98,
+     "y": -1.67
+    },
+    "rzp_otzma": {
+     "posts": 109,
+     "pages": {
+      "Bezazelsmotrich": 55,
+      "ibengvir": 54
+     },
+     "gmean": 2263.1,
+     "E": 14.22,
+     "P": 12.82,
+     "R": 12.85,
+     "x": 1.41,
+     "y": 0.03
+    },
+    "national_unity": {
+     "posts": 52,
+     "pages": {
+      "BeGantz": 40,
+      "GideonSaarIL": 12
+     },
+     "gmean": 1454.1,
+     "E": 9.14,
+     "P": 10.33,
+     "R": 10.76,
+     "x": -1.19,
+     "y": 0.43
+    },
+    "yisrael_beiteinu": {
+     "posts": 28,
+     "pages": {
+      "AvigdorLiberman": 28
+     },
+     "gmean": 1378.6,
+     "E": 8.67,
+     "P": 5.23,
+     "R": 5.32,
+     "x": 3.44,
+     "y": 0.09
+    },
+    "raam": {
+     "posts": 34,
+     "pages": {
+      "MansourAbbas.me": 34
+     },
+     "gmean": 418.8,
+     "E": 2.63,
+     "P": 3.66,
+     "R": 4.83,
+     "x": -1.03,
+     "y": 1.17
+    },
+    "hadash_taal": {
+     "posts": 51,
+     "pages": {
+      "AymanOdeh1975": 37,
+      "Tibi.Fans": 14
+     },
+     "gmean": 737.7,
+     "E": 4.64,
+     "P": 3.66,
+     "R": 4.45,
+     "x": 0.98,
+     "y": 0.78
+    },
+    "labor": {
+     "posts": 60,
+     "pages": {
+      "MichaeliMerav": 60
+     },
+     "gmean": 665.3,
+     "E": 4.18,
+     "P": 4.71,
+     "R": 4.38,
+     "x": -0.53,
+     "y": -0.33
+    },
+    "meretz": {
+     "posts": 54,
+     "pages": {
+      "zehavagalon": 54
+     },
+     "gmean": 333.8,
+     "E": 2.1,
+     "P": 4.05,
+     "R": 3.75,
+     "x": -1.96,
+     "y": -0.3
+    },
+    "balad": {
+     "posts": 43,
+     "pages": {
+      "samiaboushahadeh1": 43
+     },
+     "gmean": 606.5,
+     "E": 3.81,
+     "P": 2.21,
+     "R": 3.45,
+     "x": 1.6,
+     "y": 1.24
+    },
+    "jewish_home": {
+     "posts": 36,
+     "pages": {
+      "ayelet.benshaul.shaked": 36
+     },
+     "gmean": 868.5,
+     "E": 5.46,
+     "P": 2.07,
+     "R": 1.41,
+     "x": 3.39,
+     "y": -0.66
+    }
+   }
+  },
+  "2021": {
+   "houses": 7,
+   "lists": {
+    "likud": {
+     "posts": 59,
+     "pages": {
+      "Netanyahu": 59
+     },
+     "gmean": 4123.4,
+     "E": 26.58,
+     "P": 29.21,
+     "R": 28.22,
+     "x": -2.63,
+     "y": -0.99
+    },
+    "yesh_atid": {
+     "posts": 54,
+     "pages": {
+      "YairLapid": 54
+     },
+     "gmean": 1655.4,
+     "E": 10.67,
+     "P": 17.39,
+     "R": 16.24,
+     "x": -6.72,
+     "y": -1.15
+    },
+    "blue_white": {
+     "posts": 23,
+     "pages": {
+      "BeGantz": 23
+     },
+     "gmean": 1472.7,
+     "E": 9.49,
+     "P": 4.35,
+     "R": 7.73,
+     "x": 5.14,
+     "y": 3.38
+    },
+    "yamina": {
+     "posts": 51,
+     "pages": {
+      "NaftaliBennett": 51
+     },
+     "gmean": 1820.7,
+     "E": 11.74,
+     "P": 8.83,
+     "R": 7.24,
+     "x": 2.91,
+     "y": -1.59
+    },
+    "labor": {
+     "posts": 37,
+     "pages": {
+      "MichaeliMerav": 37
+     },
+     "gmean": 1721.2,
+     "E": 11.09,
+     "P": 4.89,
+     "R": 7.11,
+     "x": 6.21,
+     "y": 2.22
+    },
+    "yisrael_beiteinu": {
+     "posts": 55,
+     "pages": {
+      "AvigdorLiberman": 55
+     },
+     "gmean": 1142.0,
+     "E": 7.36,
+     "P": 7.07,
+     "R": 6.57,
+     "x": 0.3,
+     "y": -0.5
+    },
+    "rzp": {
+     "posts": 96,
+     "pages": {
+      "Bezazelsmotrich": 36,
+      "ibengvir": 60
+     },
+     "gmean": 1378.1,
+     "E": 8.88,
+     "P": 4.62,
+     "R": 5.97,
+     "x": 4.26,
+     "y": 1.35
+    },
+    "joint_list": {
+     "posts": 74,
+     "pages": {
+      "AymanOdeh1975": 44,
+      "Tibi.Fans": 8,
+      "samiaboushahadeh1": 22
+     },
+     "gmean": 531.1,
+     "E": 3.42,
+     "P": 7.74,
+     "R": 5.62,
+     "x": -4.32,
+     "y": -2.12
+    },
+    "new_hope": {
+     "posts": 40,
+     "pages": {
+      "GideonSaarIL": 40
+     },
+     "gmean": 701.4,
+     "E": 4.52,
+     "P": 8.42,
+     "R": 5.53,
+     "x": -3.9,
+     "y": -2.89
+    },
+    "meretz": {
+     "posts": 32,
+     "pages": {
+      "Horowitz.Nitzan": 32
+     },
+     "gmean": 801.5,
+     "E": 5.17,
+     "P": 3.94,
+     "R": 5.35,
+     "x": 1.23,
+     "y": 1.41
+    },
+    "raam": {
+     "posts": 60,
+     "pages": {
+      "MansourAbbas.me": 60
+     },
+     "gmean": 165.6,
+     "E": 1.07,
+     "P": 3.55,
+     "R": 4.42,
+     "x": -2.48,
+     "y": 0.87
+    }
+   }
+  },
+  "2019s": {
+   "houses": 7,
+   "lists": {
+    "likud": {
+     "posts": 30,
+     "pages": {
+      "Netanyahu": 30
+     },
+     "gmean": 4116.6,
+     "E": 47.63,
+     "P": 31.02,
+     "R": 29.35,
+     "x": 16.61,
+     "y": -1.67
+    },
+    "blue_white": {
+     "posts": 90,
+     "pages": {
+      "BeGantz": 30,
+      "YairLapid": 30,
+      "BogieYaalon": 30
+     },
+     "gmean": 1107.4,
+     "E": 12.81,
+     "P": 30.21,
+     "R": 30.34,
+     "x": -17.4,
+     "y": 0.13
+    },
+    "joint_list": {
+     "posts": 59,
+     "pages": {
+      "AymanOdeh1975": 30,
+      "Tibi.Fans": 9,
+      "MansourAbbas.me": 20
+     },
+     "gmean": 342.2,
+     "E": 3.96,
+     "P": 10.52,
+     "R": 12.39,
+     "x": -6.56,
+     "y": 1.88
+    },
+    "yisrael_beiteinu": {
+     "posts": 20,
+     "pages": {
+      "AvigdorLiberman": 20
+     },
+     "gmean": 492.1,
+     "E": 5.69,
+     "P": 8.09,
+     "R": 8.17,
+     "x": -2.4,
+     "y": 0.08
+    },
+    "yamina": {
+     "posts": 114,
+     "pages": {
+      "ayelet.benshaul.shaked": 30,
+      "NaftaliBennett": 30,
+      "realrafiprets": 24,
+      "Bezazelsmotrich": 30
+     },
+     "gmean": 718.9,
+     "E": 8.32,
+     "P": 7.82,
+     "R": 6.87,
+     "x": 0.5,
+     "y": -0.95
+    },
+    "labor_gesher": {
+     "posts": 25,
+     "pages": {
+      "Peretz.Amir": 0,
+      "orly.levyabkasis": 25
+     },
+     "gmean": 578.7,
+     "E": 6.7,
+     "P": 4.32,
+     "R": 5.61,
+     "x": 2.38,
+     "y": 1.29
+    },
+    "democratic_union": {
+     "posts": 87,
+     "pages": {
+      "Horowitz.Nitzan": 30,
+      "Barak.Ehud": 30,
+      "shaffirstav": 27
+     },
+     "gmean": 646.0,
+     "E": 7.47,
+     "P": 4.85,
+     "R": 5.07,
+     "x": 2.62,
+     "y": 0.22
+    },
+    "otzma": {
+     "posts": 30,
+     "pages": {
+      "ibengvir": 30
+     },
+     "gmean": 641.2,
+     "E": 7.42,
+     "P": 3.18,
+     "R": 2.2,
+     "x": 4.24,
+     "y": -0.98
+    }
+   }
+  },
+  "2020": {
+   "houses": 7,
+   "lists": {
+    "likud": {
+     "posts": 29,
+     "pages": {
+      "Netanyahu": 29
+     },
+     "gmean": 617.3,
+     "E": 13.37,
+     "P": 32.39,
+     "R": 34.28,
+     "x": -19.01,
+     "y": 1.89
+    },
+    "blue_white": {
+     "posts": 81,
+     "pages": {
+      "BeGantz": 30,
+      "YairLapid": 30,
+      "BogieYaalon": 21
+     },
+     "gmean": 1906.2,
+     "E": 41.3,
+     "P": 31.58,
+     "R": 30.93,
+     "x": 9.72,
+     "y": -0.64
+    },
+    "joint_list": {
+     "posts": 80,
+     "pages": {
+      "AymanOdeh1975": 30,
+      "Tibi.Fans": 21,
+      "MansourAbbas.me": 29
+     },
+     "gmean": 37.6,
+     "E": 0.81,
+     "P": 13.09,
+     "R": 14.74,
+     "x": -12.27,
+     "y": 1.65
+    },
+    "labor_gesher_meretz": {
+     "posts": 29,
+     "pages": {
+      "Peretz.Amir": 0,
+      "orly.levyabkasis": 4,
+      "Horowitz.Nitzan": 25
+     },
+     "gmean": 210.0,
+     "E": 4.55,
+     "P": 8.23,
+     "R": 6.78,
+     "x": -3.68,
+     "y": -1.45
+    },
+    "yisrael_beiteinu": {
+     "posts": 21,
+     "pages": {
+      "AvigdorLiberman": 21
+     },
+     "gmean": 771.3,
+     "E": 16.71,
+     "P": 6.07,
+     "R": 6.68,
+     "x": 10.64,
+     "y": 0.61
+    },
+    "yamina": {
+     "posts": 79,
+     "pages": {
+      "NaftaliBennett": 30,
+      "Bezazelsmotrich": 28,
+      "realrafiprets": 21
+     },
+     "gmean": 531.3,
+     "E": 11.51,
+     "P": 7.01,
+     "R": 6.1,
+     "x": 4.5,
+     "y": -0.91
+    },
+    "otzma": {
+     "posts": 30,
+     "pages": {
+      "ibengvir": 30
+     },
+     "gmean": 541.9,
+     "E": 11.74,
+     "P": 1.64,
+     "R": 0.49,
+     "x": 10.11,
+     "y": -1.14
+    }
+   }
+  }
+ },
+ "calibration": {
+  "rows": 37,
+  "k_pooled": -0.0238,
+  "k_by_year": {
+   "2022": 0.0873,
+   "2021": 0.337,
+   "2019s": -0.066,
+   "2020": -0.0776
+  },
+  "permutation_p": 0.7613,
+  "conditions": {
+   "rows_at_least_35": true,
+   "added_years_measured": true,
+   "k_pooled_positive": false,
+   "permutation_p_below_0.05": false,
+   "k_positive_in_at_least_3_of_4": false
+  },
+  "weight_used": 0.0
+ },
+ "2026": {
+  "pollster_families": 8,
+  "measured_poll_share_national": 86.97,
+  "lists": {
+   "likud": {
+    "posts": 60,
+    "pages": {
+     "Netanyahu": 60
+    },
+    "gmean": 2681.7,
+    "E": 24.81,
+    "P": 20.17,
+    "gap": 4.64,
+    "move_pts": 0.0
+   },
+   "rzp_zehut": {
+    "posts": 60,
+    "pages": {
+     "Bezazelsmotrich": 60
+    },
+    "gmean": 796.8,
+    "E": 7.37,
+    "P": 5.99,
+    "gap": 1.39,
+    "move_pts": 0.0
+   },
+   "otzma": {
+    "posts": 39,
+    "pages": {
+     "ibengvir": 39
+    },
+    "gmean": 2804.2,
+    "E": 25.95,
+    "P": 7.38,
+    "gap": 18.56,
+    "move_pts": 0.0
+   },
+   "together": {
+    "posts": 120,
+    "pages": {
+     "NaftaliBennett": 60,
+     "YairLapid": 60
+    },
+    "gmean": 884.5,
+    "E": 8.18,
+    "P": 12.34,
+    "gap": -4.15,
+    "move_pts": -0.0
+   },
+   "yashar": {
+    "posts": 60,
+    "pages": {
+     "GadiEisenkot": 60
+    },
+    "gmean": 1281.7,
+    "E": 11.86,
+    "P": 20.07,
+    "gap": -8.21,
+    "move_pts": -0.0
+   },
+   "democrats": {
+    "posts": 60,
+    "pages": {
+     "MK.YairGolan": 60
+    },
+    "gmean": 620.3,
+    "E": 5.74,
+    "P": 8.17,
+    "gap": -2.43,
+    "move_pts": -0.0
+   },
+   "yisrael_beiteinu": {
+    "posts": 60,
+    "pages": {
+     "AvigdorLiberman": 60
+    },
+    "gmean": 481.4,
+    "E": 4.45,
+    "P": 6.68,
+    "gap": -2.23,
+    "move_pts": -0.0
+   },
+   "reservists_nep": {
+    "posts": 59,
+    "pages": {
+     "YoazHendelpage": 43,
+     "Zalichayaron": 16
+    },
+    "gmean": 252.4,
+    "E": 2.34,
+    "P": 3.24,
+    "gap": -0.91,
+    "move_pts": -0.0
+   },
+   "raam": {
+    "posts": 24,
+    "pages": {
+     "MansourAbbas.me": 24
+    },
+    "gmean": 237.0,
+    "E": 2.19,
+    "P": 4.95,
+    "gap": -2.76,
+    "move_pts": -0.0
+   },
+   "joint_list": {
+    "posts": 43,
+    "pages": {
+     "JabareenYousef": 14,
+     "AymanOdeh1975": 16,
+     "Tibi.Fans": 13
+    },
+    "gmean": 714.9,
+    "E": 6.61,
+    "P": 8.19,
+    "gap": -1.57,
+    "move_pts": -0.0
+   },
+   "amcha_yisrael": {
+    "posts": 3,
+    "pages": {
+     "amchaisraelparty": 3
+    },
+    "gmean": 52.8,
+    "E": 0.49,
+    "P": 2.82,
+    "gap": -2.33,
+    "move_pts": -0.0
+   }
+  },
+  "moves_pts": {
+   "likud": 0.0,
+   "rzp_zehut": 0.0,
+   "otzma": 0.0,
+   "together": -0.0,
+   "yashar": -0.0,
+   "democrats": -0.0,
+   "yisrael_beiteinu": -0.0,
+   "reservists_nep": -0.0,
+   "raam": -0.0,
+   "joint_list": -0.0,
+   "amcha_yisrael": -0.0
+  }
+ }
+}
